@@ -23,4 +23,4 @@
 [screenshot_4]: ./assets/screen_4.jpg
 [screenshot_5]: ./assets/screen_5.jpg
 [screenshot_6]: ./assets/screen_6.jpg
-[logo]: ./assets/new_logo.png
+[logo]: ./assets/new_logo_short.png

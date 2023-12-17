@@ -1,4 +1,4 @@
-# logo
+[logo]
 
 &#128312;**stranded** - геймплейная и сюжетная модификация для Ex Machina Community Remaster.
 Нововведения:

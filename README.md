@@ -9,18 +9,18 @@
 * Автомобили из ассет-пака Extra Machines
 
 &#128312;**Скриншоты**
-> ![1][assets\screen_1.jpg]
-> ![2][assets\screen_2.jpg]
-> ![3][assets\screen_3.jpg]
-> ![4][assets\screen_4.jpg]
-> ![5][assets\screen_5.jpg]
-> ![6][assets\screen_6.jpg]
+> ![1][screenshot_1]
+> ![2][screenshot_2]
+> ![3][screenshot_3]
+> ![4][screenshot_4]
+> ![5][screenshot_5]
+> ![6][screenshot_6]
 
 <!-- Screenshot shortcuts -->
-[screenshot_1]: assets\screen_1.jpg
-[screenshot_2]: assets\screen_2.jpg
-[screenshot_3]: assets\screen_3.jpg
-[screenshot_4]: assets\screen_4.jpg
-[screenshot_5]: assets\screen_5.jpg
-[screenshot_6]: assets\screen_6.jpg
-[logo]: assets\new_logo.png
+[screenshot_1]: ./assets/screen_1.jpg
+[screenshot_2]: ./assets/screen_2.jpg
+[screenshot_3]: ./assets/screen_3.jpg
+[screenshot_4]: ./assets/screen_4.jpg
+[screenshot_5]: ./assets/screen_5.jpg
+[screenshot_6]: ./assets/screen_6.jpg
+[logo]: ./assets/new_logo.png

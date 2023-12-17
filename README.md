@@ -1,2 +1,9 @@
 # stranded
- Survival-like mod for Ex Machina (Hard Truck Apocalypse)
+
+&#128312;**stranded** - геймплейная и сюжетная модификация для Ex Machina Community Remaster.
+Нововведения:
+* Новая игровая локация — остров Сакадин
+* Элементы выживания
+* Экспериментальные визуальные и геймплейные фичи
+* Новая история
+* Автомобили из ассет-пака Extra Machines

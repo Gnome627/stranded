@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		value="Обменять товары в кузове на кредиты?"
+		numButtons="2" />
+
+	<string
+		id="88021"
+		value="Обменять оружие в кузове на товары?|Шершень (2 шт. за ед.)"
+		numButtons="2" />
+
+	<string
+		id="8803"
+		value="Нет предметов, подходящих для обмена."
+		numButtons="1" />
+
+	<string
+		id="88031"
+		value="Нет предметов, подходящих для обмена.|Шершень (0 из 2 шт.)"
+		numButtons="1" />
+
+	<string
+		id="88032"
+		value="Недостаточно предметов, подходящих для обмена.|Шершень (1 из 2 шт.)"
+		numButtons="1" />
+
+	<string
+		id="8804"
+		value="Улучшить мастерскую?|Стоимость — 5000 кредитов и &quot;Рабочее оборудование&quot;."
+		numButtons="2" />
+
+	<string
+		id="8805"
+		value="Для улучшения мастерской требуется:||5000 кредитов и &quot;Рабочее оборудование&quot;."
+		numButtons="1" />
+
+	<string
+		id="8904"
+		value="Улучшить склад топлива?|Стоимость — 6500 кредитов и &quot;Нефть&quot;."
+		numButtons="2" />
+
+	<string
+		id="8905"
+		value="Для улучшения склада топлива требуется:||6500 кредитов и &quot;Нефть&quot;."
+		numButtons="1" />
+
+	<string
+		id="9804"
+		value="Восстановить заправочную станцию?|Стоимость — 15000 кредитов и одна &quot;Электроника&quot;"
+		numButtons="2" />
+
+	<string
+		id="9805"
+		value="Для восстановления заправочной станции требуется:||15000 кредитов, &quot;Электроника&quot;|и полное улучшение базы игрока."
+		numButtons="1" />
+
+	<string
+		id="9904"
+		value="Улучшить склад топлива до максимального уровня?|Стоимость — 10000 кредитов и &quot;Горючее&quot;."
+		numButtons="2" />
+
+	<string
+		id="9905"
+		value="Для улучшения склада топлива требуется:||10000 кредитов и &quot;Горючее&quot;."
+		numButtons="1" />
+
+	<string
+		id="10004"
+		value="В кузове есть всё нужное, улучшить склад ресурсов?"
+		numButtons="2" />
+
+	<string
+		id="10005"
+		value="Для улучшения склада ресурсов требуется доставить Спектр, Корд и Флаг. ||Это улучшение позволит обменивать оружие, за исключением энергитического и ракетных установок"
+		numButtons="1" />
+
+	<string
+		id="11004"
+		value="В кузове есть всё нужное. Улучшить склад ресурсов до максимального уровня?"
+		numButtons="2" />
+
+	<string
+		id="11005"
+		value="Для улучшения склада ресурсов требуется доставить Максим и Фагот. ||Это улучшение позволит обменивать энергетическое оружие и ракетные установки."
+		numButtons="1" />
+
+	<string
+		id="9991"
+		value="Артефакт исчез"
+		numButtons="1" />
+	
+	<string
+		id="1"
+		modelName="mask_father"
+		modelSlot="1"
+		value="ПЁТР|Просну-у-улся!.."
+		sound="data\sounds\Speech\somalia\not_father.ogg"
+		time="5" />
+
+	<string
+		id="10"
+		modelName="mask_hero"
+		modelSlot="1"
+		value="БИЛЛ|Это был последний артефакт!.. Настало время валить отсюда! "
+		sound="data\sounds\Speech\somalia\1.ogg"
+		time="4" />
+
+	<string
+		id="11"
+		modelName="mask_hero"
+		modelSlot="1"
+		value="БИЛЛ|И вот так, целому и невредимому, мне удалось вернуться домой!"
+		sound="data\sounds\Speech\somalia\2.ogg"
+		time="5" />
+
+	<string
+		id="2"
+		value="Концовка 1/2.||Спасибо за игру!"
+		numButtons="1" />
+
+	<string
+		id="3"
+		value="Концовка 2/2.||Поздравляем, получена истинная концовка!||Спасибо за игру!"
+		numButtons="1" />
+
+	<string
+		id="30"
+		sound="data\sounds\Speech\somalia\cow.ogg"
+		time="5" />
+
+	<string
+		id="777"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff| | | |Модификация от Gnome627 и EM2ch.| | |Идея и разработка — Дмитрий &quot;Gnome627&quot; Сащенко| |Озвучивание, экспертная поддержка — Алексей &quot;__nEmPoBu4__&quot; Смирнов| |Тестирование — Иван &quot;ICAS14&quot; Черепанов@ff332200 и виски &quot;Nucky Thompson 'Apple Pie'&quot;@ffffffff| | | |0JHQuNC70Lsg0LLQtdGA0L3Rg9C70YHRjyDQuiDRgdC10LHQtSDQtNC|+0LzQvtC5INCyINCQ0YDQuNC30L7Qu9GM0LQsINCz0LTQtSDQtdCz0L|4g0LLRgdGC0YDQtdGC0LjQu9C4INGB0YLQsNGA0YvQtSDRgdC10LvRj|NGB0LrQuNC1INC00YDRg9C30YzRjyDQlNC20L7QvdC90Lgg0Lgg0JHQ|vtGD0LvQtNC10YAuINCe0L0g0L3QsNGC0ZHRgCDRgdCy0L7QuSDRgNC|10LLQvtC70YzQstC10YAsINCwINC/0L7RgtC+0Lwg0L/QvtC10YXQsN|C7INC40YHQutCw0YLRjCDQv9GA0LjQutC70Y7Rh9C10L3QuNGPINC4I|NC90LDQtNC40YDQsNGC0Ywg0LfQsNC00L3QuNGG0YMg0YXQsNC50LLQ|tdC50LzQtdC90LDQvC4="
+		fontSize="18"
+		scrollSpeed="1.75"
+		time="20" />
+</resource>

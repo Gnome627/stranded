@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<QuestInfoResource>
+
+	<QuestInfo
+		questName="Stranded_Quest1"
+		briefDiz="Найти живых людей"
+		fullDiz="Не знаю, как я сюда попал, но очень хочется узнать, как отсюда выбраться. "
+		isMainQuest="1">
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Arena_Quest"
+		briefDiz="Арена"
+		fullDiz="Победить всех противников на арене. "
+		isMainQuest="0">
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_Quest2"
+		briefDiz="Поговорить с местными"
+		fullDiz="Посёлок?.. Может, кто-то знает, что происходит?"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Stranded_Quest2_1"
+		briefDiz="Опросить жителей"
+		isMainQuest="1">
+		<Map
+			name="somalia"
+			targetObjName="DesertTown_enter" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_Quest2_2"
+		briefDiz="Принести дрова"
+		isMainQuest="1">
+		<Map
+			name="somalia"
+			targetObjName="DesertTown_enter" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_Quest2SubQuest"
+		briefDiz="Помочь лудоману"
+		fullDiz="Местный игрок просит вернуть его проигранную ставку. Похоже, придётся пострелять. "
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Stranded_Quest2SubQuest_1"
+		briefDiz="Расправиться с победителем"
+		isMainQuest="0">
+		<Map
+			name="somalia"
+			targetObjName="GamblerTeam_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_Quest2SubQuest_2"
+		briefDiz="Вернуть вещи игроку"
+		isMainQuest="0">
+		<Map
+			name="somalia"
+			targetObjName="DesertHouseLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_SciencerQuest"
+		briefDiz="Выполнить поручение учёного"
+		fullDiz="Очередной псих просит покататься меня по округе из-за своей бредовой идеи. "
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Stranded_SciencerQuest_1"
+		briefDiz="Доехать до точки с &quot;прибором&quot;"
+		isMainQuest="0">
+		<Map
+			name="somalia"
+			targetObjName="YLoc12" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_SciencerQuest_2"
+		briefDiz="Вернуться к учёному"
+		isMainQuest="0">
+		<Map
+			name="somalia"
+			targetObjName="DesertTown_enter" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_Quest3"
+		briefDiz="Поговорить со старожилом"
+		fullDiz="В лесу живёт нужный мне человек, который что-то знает. "
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Stranded_Quest3_1"
+		briefDiz="Добраться до хижины"
+		isMainQuest="1">
+		<Map
+			name="somalia"
+			targetObjName="DruidLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_Quest3_2"
+		briefDiz="Найти артефакт"
+		isMainQuest="1">
+		<Map
+			name="somalia"
+			targetObjName="Artefact1Loc1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_Quest3_3"
+		briefDiz="Вернуться к Друиду"
+		isMainQuest="1">
+		<Map
+			name="somalia"
+			targetObjName="DruidLoc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_ArtefactQuest"
+		briefDiz="Найти артефакты"
+		fullDiz="Для завершения спасательной машины нужно найти ещё три компонента. "
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Stranded_ArtefactQuest_1"
+		briefDiz="Найти артефакт tDKET"
+		isMainQuest="1">
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_ArtefactQuest_2"
+		briefDiz="Найти артефакт tMORD"
+		isMainQuest="1">
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_ArtefactQuest_3"
+		briefDiz="Найти артефакт tPMMN"
+		isMainQuest="1">
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_Artefact2_Quest"
+		briefDiz="Получить артефакт на берегу"
+		fullDiz="Я видел вспышку у берега, стоит проверить, что там. "
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Stranded_Artefact2_Quest_1"
+		briefDiz="Осмотреть берег"
+		isMainQuest="1">
+		<Map
+			name="somalia"
+			targetObjName="Artefact2Loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_Artefact2_Quest_2"
+		briefDiz="Решить загадку алтарей"
+		isMainQuest="1">
+		<Map
+			name="somalia"
+			targetObjName="Artefact2Loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Stranded_End_Quest"
+		briefDiz="Собрать машину"
+		fullDiz="Пришло время завершить начатое... Или ещё нет?"
+		isMainQuest="1">
+		<Map
+			name="somalia"
+			targetObjName="EndLoc" />
+	</QuestInfo>
+
+	<!-- Old -->
+
+	<QuestInfo
+		questName="Dynamic_Convoy_0"
+		briefDiz="Сопроводить транспорт до объекта %2n"
+		fullDiz="Селение %1n просит вас сопроводить транспорт с ценным грузом до объекта %2n за %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Convoy_1"
+		briefDiz="Защитить транспорт"
+		fullDiz="Житель города %1n попросил меня защитить транспорт по дороге в селение %2n и обещал заплатить %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Convoy_2"
+		briefDiz="Обеспечить безопасность транспорта"
+		fullDiz="Город %1n просит вас сопроводить транспорт с ценным грузом до объекта %2n. Если все пройдет гладко, я получу %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Convoy_3"
+		briefDiz="Сопроводить транспорт до объекта %2n"
+		fullDiz="Транспорт из города %1n отправляется по торговому маршруту в селение %2n. В последнее время участились нападения на одинокие грузовики, так что я согласился защищать его за скромное вознаграждение в %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Destroy_0"
+		briefDiz="Уничтожить врага"
+		fullDiz="Город %1n просит вас уничтожить врага за вознаграждение в %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Destroy_1"
+		briefDiz="Обезвредить бандита"
+		fullDiz="Жители поселения %1n подвергаются частым атакам хитрого бандита. Я помогу им избавиться от угрозы за %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Destroy_2"
+		briefDiz="Выследить агрессора"
+		fullDiz="Я получу %3d, когда избавлю окрестности города %1n от присутствия одного негодяя."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Hunt_0"
+		briefDiz="Сезон охоты"
+		fullDiz="Город %1n заплатит за уничтожение каждого бандита, который мне встретится, %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Hunt_1"
+		briefDiz="Проучить бандитов"
+		fullDiz="Бандиты потеряли всякий стыд! Надо преподать им хороший урок. Тем более что город %1n платит за уничтожение каждого бандита %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Hunt_2"
+		briefDiz="Зачистка территории"
+		fullDiz="Власти города %1n начали борьбу за безопасность дорог. В качестве главного мероприятия – операция Зачистка. Уничтожение каждой враждебной машины принесёт мне %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Peace_0"
+		briefDiz="Помириться с группировкой %2b"
+		fullDiz="За умеренный процент от моих денег группировка %2b готова со мной помириться."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Reach_0"
+		briefDiz="Отвезти образцы в селение %2n"
+		fullDiz="Город %1n просит вас отвезти кое-какие исследовательские образцы в поселение %2n. По прибытии я получу %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Reach_1"
+		briefDiz="Доставить посылку в селение %2n"
+		fullDiz="Я получу %3d, когда доставлю посылку в селение %2n. Там ее ждут, но за такие смешные деньги я не собираюсь уж очень торопиться."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Reach_2"
+		briefDiz="Добраться до селения %2n"
+		fullDiz="Один чудак из города %1n готов заплатить %3d, если я передам привет его другу, живущему в поселении %2n."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="r4m2_NeutralizePlate"
+		briefDiz="Обезвредить тарелку"
+		fullDiz="Корабль пришельцев является источником излучения, которое разрушило наш мир. Её необходимо обезвредить."
+		isMainQuest="1">
+		<Map
+			name="r1m1" />
+
+		<Map
+			name="r1m2" />
+
+		<Map
+			name="r1m3" />
+
+		<Map
+			name="r1m4" />
+
+		<Map
+			name="r2m1" />
+
+		<Map
+			name="r2m2" />
+
+		<Map
+			name="r3m1" />
+
+		<Map
+			name="r3m2" />
+
+		<Map
+			name="r4m1" />
+
+		<Map
+			name="r4m2" />
+	</QuestInfo>
+
+</QuestInfoResource>

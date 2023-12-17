@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DialogsResource>
+
+<!-- Guy1 -->
+	<Reply
+		name="DesertTown_Guy1_Dialog_1_1"
+		text="Краски сгущаются, земля горит…"
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount( ) == 0"
+		nextReplies="DesertTown_Guy1_Dialog_1_2" />
+
+	<Reply
+		name="DesertTown_Guy1_Dialog_1_2"
+		text="О чём ты говоришь?"
+		role="PLAYER"
+		nextReplies="DesertTown_Guy1_Dialog_2_1" />
+
+	<Reply
+		name="DesertTown_Guy1_Dialog_2_1"
+		text="А Солнце раздуло, словно рыбу-фугу…"
+		role="NPC"
+		nextReplies="DesertTown_Guy1_Dialog_2_2" />
+
+	<Reply
+		name="DesertTown_Guy1_Dialog_2_2"
+		text="Всего лишь безобидный псих."
+		role="PLAYER"
+		scriptResult="EndConversation();" />
+
+<!-- Guy2 -->
+	<!-- dlg 1 -->
+	<Reply
+		name="DesertTown_Guy2_Dialog_1_1"
+		text="Чужак! Что привело тебя к… Ну да ладно, ты же всё равно не помнишь… Располагайся!"
+		role="NPC"
+		scriptCondition="QuestStatus('Stranded_Quest2_1')==Q_TAKEN"
+		nextReplies="DesertTown_Guy2_Dialog_1_2" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog_1_2"
+		text="Что здесь происходит?"
+		role="PLAYER"
+		nextReplies="DesertTown_Guy2_Dialog_2_1" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog_2_1"
+		text="Безудержное веселье, как видишь!.."
+		role="NPC"
+		nextReplies="DesertTown_Guy2_Dialog_2_2" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog_2_2"
+		text="Как мне выбраться отсюда?"
+		role="PLAYER"
+		nextReplies="DesertTown_Guy2_Dialog_3_1" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog_3_1"
+		text="Ха-ха-ха, рассмешил! Ладно, так и быть, привези мне дров, я тебе расскажу кое-что."
+		role="NPC"
+		nextReplies="DesertTown_Guy2_Dialog_3_2" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog_3_2"
+		text="Что за глупости? Почему нельзя просто сказать?.."
+		role="PLAYER"
+		nextReplies="DesertTown_Guy2_Dialog_4_1" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog_4_1"
+		text="Будь добр, не груби. Найдёшь дрова — я всё скажу."
+		role="NPC"
+		nextReplies="DesertTown_Guy2_Dialog_4_2" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog_4_2"
+		text="Похоже, у меня нет выбора."
+		role="PLAYER"
+		scriptResult="CompleteQuest('Stranded_Quest2_1'); EndConversation();" />
+
+	<!-- dlg 2 -->
+	<Reply
+		name="DesertTown_Guy2_Dialog2_0_1"
+		text="Ты нашёл дрова?"
+		role="NPC"
+		scriptCondition="QuestStatus('Stranded_Quest2_2')==Q_TAKEN"
+		nextReplies="DesertTown_Guy2_Dialog2_0_2 DesertTown_Guy2_Dialog2_0_22" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog2_0_2"
+		text="Вот они…"
+		role="PLAYER"
+		scriptCondition="GetPlayerVehicle():HasAmountOfItemsInRepository('firewood', 1) and QuestStatus('Stranded_Quest2_2')==Q_TAKEN"
+		nextReplies="DesertTown_Guy2_Dialog2_1_1" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog2_0_22"
+		text="Пока ещё нет…"
+		role="PLAYER"
+		scriptResult="EndConversation();" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog2_1_1"
+		text="Моя прелесть! Благодарю тебя, путник."
+		role="NPC"
+		nextReplies="DesertTown_Guy2_Dialog2_1_2" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog2_1_2"
+		text="Теперь ты поможешь мне?"
+		role="PLAYER"
+		nextReplies="DesertTown_Guy2_Dialog2_2_1" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog2_2_1"
+		text="Конечно! Вот здесь живёт человек, он всё тебе расскажет."
+		role="NPC"
+		nextReplies="DesertTown_Guy2_Dialog2_2_2" />
+
+	<Reply
+		name="DesertTown_Guy2_Dialog2_2_2"
+		text="И ради этого я исколесил всю округу?! Да что за…"
+		role="PLAYER"
+		scriptResult="CompleteQuest('Stranded_Quest2_2'); TakeQuest('Stranded_Quest3'); AddFadingMsgId( 'fm_history_got' ); FailQuestIfTaken('Stranded_Quest2SubQuest'); TActivate('tr_Guy3QuestFailed');  AddHistory( 'stranded_2' ); RemoveItemsFromPlayerRepository('firewood', 1); EndConversation();" />
+
+<!-- Guy4 -->
+	
+	<Reply
+		name="DesertTown_Guy4_Dialog_0_1"
+		text="Стой, не проходи мимо! У меня есть дело, а у тебя есть машина!"
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount( ) == 0 and (QuestStatus('Stranded_ArtefactQuest')==Q_TAKEN or QuestStatus('Stranded_ArtefactQuest')==Q_COMPLETED)"
+		nextReplies="DesertTown_Guy4_Dialog_0_2" />
+
+	<Reply
+		name="DesertTown_Guy4_Dialog_0_2"
+		text="Что такое?"
+		role="PLAYER"
+		nextReplies="DesertTown_Guy4_Dialog_1_1" />
+
+	<Reply
+		name="DesertTown_Guy4_Dialog_1_1"
+		text="Я проводил свои исследования, и наткнулся на один феномен! Пожалуйста, возьми этот прибор и отправься на точные координаты."
+		role="NPC"
+		nextReplies="DesertTown_Guy4_Dialog_1_2" />
+
+	<Reply
+		name="DesertTown_Guy4_Dialog_1_2"
+		text="Какой к чёрту прибор?! Мужик, ты показываешь мне какой-то кусок фанеры и просишь скататься на другой конец острова?"
+		role="PLAYER"
+		nextReplies="DesertTown_Guy4_Dialog_2_1" />
+
+	<Reply
+		name="DesertTown_Guy4_Dialog_2_1"
+		text="Грязный плебей, что ты молвишь! Я понимаю, у тебя не хватает умственных способностей, чтобы осознать замысел вселенной... Но ты либо соглашайся, либо проваливай прочь и не трать попусту моё время!"
+		role="NPC"
+		nextReplies="DesertTown_Guy4_Dialog_2_2 DesertTown_Guy4_Dialog_2_3" />
+
+	<Reply
+		name="DesertTown_Guy4_Dialog_2_2"
+		text="Ладно, ладно! Я сделаю, что ты просишь."
+		role="PLAYER"
+		scriptResult="GetCurNpc():SetSpokenCount(1); AddFadingMsgByStrIdFormatted( 'fm_player_add_thing', 'quest_pribor'); AddQuestItem('quest_pribor'); TakeQuest('Stranded_SciencerQuest'); EndConversation();" />
+
+	<Reply
+		name="DesertTown_Guy4_Dialog_2_3"
+		text="Времени нет на такую ерунду."
+		role="PLAYER"
+		scriptResult="GetCurNpc():SetSpokenCount(1); EndConversation();" />
+
+
+
+	<Reply
+		name="DesertTown_Guy4_Dialog2_1_1"
+		text="О-о-о, это многое объясняет!!! Да это же великое открытие! Путник, настал час!.. А! А-А-А-А!.. Хгх.. Гххрх..."
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount( ) == 1 and QuestStatus('Stranded_SciencerQuest_2')==Q_TAKEN"
+		nextReplies="DesertTown_Guy4_Dialog2_1_2" />
+
+	<Reply
+		name="DesertTown_Guy4_Dialog2_1_2"
+		text="Чёрт возьми, что ты творишь... [Бедняга, совсем с катушек съехал, чтобы маску снять...]"
+		role="PLAYER"
+		scriptResult="GetCurNpc():SetSpokenCount(2); CompleteQuest('Stranded_SciencerQuest_2'); GetPlayerVehicle():AddItemsToRepository('additional_stability', 1); EndConversation();" />
+
+<!-- Guy3 -->
+	<Reply
+		name="DesertTown_Guy3_Dialog_0_1"
+		text="Эй, незнакомец! Тебе что-то нужно? Извини, но у меня ничего нет. Я играл с одним типом в петанк и всё проиграл, теперь мне даже есть нечего. Помоги, верни мои запасы, и я поделюсь с тобой!"
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount( ) == 0"
+		nextReplies="DesertTown_Guy3_Dialog_0_2 DesertTown_Guy3_Dialog_0_22" />
+
+	<Reply
+		name="DesertTown_Guy3_Dialog_0_22"
+		text="Мне нужно подумать."
+		role="PLAYER"
+		scriptResult="GetCurNpc():SetSpokenCount(1); EndConversation();" />
+
+	<Reply
+		name="DesertTown_Guy3_Dialog_01_1"
+		text="Ну как, поможешь мне с тем типом?"
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount( ) == 1"
+		nextReplies="DesertTown_Guy3_Dialog_0_2 DesertTown_Guy3_Dialog_01_22" />
+
+	<Reply
+		name="DesertTown_Guy3_Dialog_01_22"
+		text="Я ещё не готов."
+		role="PLAYER"
+		scriptResult="EndConversation();" />
+
+	<Reply
+		name="DesertTown_Guy3_Dialog_0_2"
+		text="Я помогу тебе."
+		role="PLAYER"
+		scriptResult="GetCurNpc():SetSpokenCount(2); TActivate('tr_Guy3Quest'); EndConversation();" />
+
+	<Reply
+		name="DesertTown_Guy3_Dialog_1_1"
+		text="Ты вернулся. Спасибо за помощь! Как и обещал, вот твоя доля."
+		role="NPC"
+		scriptCondition="GetCurNpc():GetSpokenCount( ) == 2 and QuestStatus('Stranded_Quest2SubQuest_2')==Q_TAKEN"
+		nextReplies="DesertTown_Guy3_Dialog_1_2" />
+
+	<Reply
+		name="DesertTown_Guy3_Dialog_1_2"
+		text="Бывай."
+		role="PLAYER"
+		scriptResult="RemoveQuestItem('quest_container'); GetPlayerVehicle():AddItemsToRepository('firewood', 1); GetPlayerVehicle():AddItemsToRepository('potato', 1); GetCurNpc():SetSpokenCount(3); CompleteQuest('Stranded_Quest2SubQuest_2'); EndConversation();" />
+
+<!-- Gnome -->
+
+	<Reply
+		name="Druid_Dialog0_1_1"
+		text="[…]"
+		role="NPC"
+		scriptCondition="not(QuestStatus('Stranded_Quest3')==Q_TAKEN or QuestStatus('Stranded_Quest3')==Q_COMPLETED) and GetCurNpc():GetSpokenCount( ) == 0"
+		nextReplies="Druid_Dialog0_1_2" />
+
+	<Reply
+		name="Druid_Dialog0_1_2"
+		text="[…но никто не пришёл…]"
+		role="PLAYER"
+		scriptResult="GetPlayerVehicle():SetCustomLinearVelocity(0); GetPlayerVehicle():SetPosition(CVector(getPos('YLoc47')) + CVector(0, 5, 0)); RotationPlayerByPoints(CVector(getPos('YLoc47')), CVector(getPos('YLoc48'))); CreateEffectTTLed( 'ET_PS_DRONE_EX', CVector(getPos('YLoc47')) + CVector(0, 5, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000) GetCurNpc():SetSpokenCount(1); EndConversation();" />
+
+
+
+	<Reply
+		name="Druid_Dialog1_1_1"
+		text="Привет, ты, наверное, новенький? Меня друидом зовут."
+		role="NPC"
+		scriptCondition="QuestStatus('Stranded_Quest3_1')==Q_TAKEN"
+		nextReplies="Druid_Dialog1_1_2" />
+
+	<Reply
+		name="Druid_Dialog1_1_2"
+		text="Хватит играть со мной! Ты знаешь, как выбраться отсюда?!"
+		role="PLAYER"
+		nextReplies="Druid_Dialog1_2_1" />
+
+	<Reply
+		name="Druid_Dialog1_2_1"
+		text="Насмешил! Очередной амбициозный склерозник решил, что ему есть, куда бежать!"
+		role="NPC"
+		nextReplies="Druid_Dialog1_2_2" />
+
+	<Reply
+		name="Druid_Dialog1_2_2"
+		text="Хочешь сказать, выхода нет?"
+		role="PLAYER"
+		nextReplies="Druid_Dialog1_3_1" />
+
+	<Reply
+		name="Druid_Dialog1_3_1"
+		text="Хм-м… Выход есть, на самом деле! Но какая разница? Оглянись, разве это место не прекрасно?"
+		role="NPC"
+		nextReplies="Druid_Dialog1_3_2" />
+
+	<Reply
+		name="Druid_Dialog1_3_2"
+		text="Хватит ходить вокруг да около! Что ты знаешь?"
+		role="PLAYER"
+		nextReplies="Druid_Dialog1_4_1" />
+
+	<Reply
+		name="Druid_Dialog1_4_1"
+		text="Скучный ты, склерозник. Да, как бы забавно не было, у нас есть чертёж волшебной машины, которая сама решит все проблемы! Да только собрать её не получится."
+		role="NPC"
+		nextReplies="Druid_Dialog1_4_2" />
+
+	<Reply
+		name="Druid_Dialog1_4_2"
+		text="Что, почему?"
+		role="PLAYER"
+		nextReplies="Druid_Dialog1_5_1" />
+
+	<Reply
+		name="Druid_Dialog1_5_1"
+		text="Мы пытались. Довольно давно, правда… Десятки? Уже, наверное, сотни лет назад… Глупость, люди столько не живут…"
+		role="NPC"
+		nextReplies="Druid_Dialog1_5_2" />
+
+	<Reply
+		name="Druid_Dialog1_5_2"
+		text="Что вам помешало?"
+		role="PLAYER"
+		nextReplies="Druid_Dialog1_6_1" />
+
+	<Reply
+		name="Druid_Dialog1_6_1"
+		text="Всего лишь расхотелось! Видишь ли, это место настолько прекрасно…"
+		role="NPC"
+		nextReplies="Druid_Dialog1_6_2" />
+
+	<Reply
+		name="Druid_Dialog1_6_2"
+		text="[…]"
+		role="PLAYER"
+		nextReplies="Druid_Dialog1_7_1" />
+
+	<Reply
+		name="Druid_Dialog1_7_1"
+		text="Ладно, не смотри так. Давай, я помечу тебе место на карте. Сам проверишь."
+		role="NPC"
+		nextReplies="Druid_Dialog1_7_2" />
+
+	<Reply
+		name="Druid_Dialog1_7_2"
+		text="Постой, что это значит?"
+		role="PLAYER"
+		nextReplies="Druid_Dialog1_8_1" />
+
+	<Reply
+		name="Druid_Dialog1_8_1"
+		text="В этом месте лежит один из… артефактов. Езжай, посмотри. Потом расскажешь!"
+		role="NPC"
+		nextReplies="Druid_Dialog1_8_2" />
+
+	<Reply
+		name="Druid_Dialog1_8_2"
+		text="Давай, делать нечего."
+		role="PLAYER"
+		scriptResult="GetPlayerVehicle():SetCustomLinearVelocity(0); AddFadingMsgId( 'fm_history_got' ); AddHistory( 'stranded_3' ); CompleteQuest('Stranded_Quest3_1');  EndConversation();" />
+
+
+
+	<Reply
+		name="Druid_Dialog2_1_1"
+		text="Надо же, какая блестяшка!.. Господи!! Не давай мне это в руки, а лучше убери куда подальше! Как у тебя получилось?!"
+		role="NPC"
+		scriptCondition="QuestStatus('Stranded_Quest3_3')==Q_TAKEN"
+		nextReplies="Druid_Dialog2_1_2" />
+
+	<Reply
+		name="Druid_Dialog2_1_2"
+		text="Получилось что?"
+		role="PLAYER"
+		nextReplies="Druid_Dialog2_2_1" />
+
+	<Reply
+		name="Druid_Dialog2_2_1"
+		text="Как ты её держишь в руках?"
+		role="NPC"
+		nextReplies="Druid_Dialog2_2_2" />
+
+	<Reply
+		name="Druid_Dialog2_2_2"
+		text="Не знаю, о чём ты говоришь. Это ведь не всё, что нужно для машины?"
+		role="PLAYER"
+		nextReplies="Druid_Dialog2_3_1" />
+
+	<Reply
+		name="Druid_Dialog2_3_1"
+		text="Это… Это чертовщина!"
+		role="NPC"
+		nextReplies="Druid_Dialog2_3_2" />
+
+	<Reply
+		name="Druid_Dialog2_3_2"
+		text="Ты говорил, что вы пытались собрать её, но до сих пор этого не сделали."
+		role="PLAYER"
+		nextReplies="Druid_Dialog2_4_1" />
+
+	<Reply
+		name="Druid_Dialog2_4_1"
+		text="Хватит, оставь меня!"
+		role="NPC"
+		nextReplies="Druid_Dialog2_4_2" />
+
+	<Reply
+		name="Druid_Dialog2_4_2"
+		text="Постой!"
+		role="PLAYER"
+		nextReplies="Druid_Dialog2_5_1" />
+
+	<Reply
+		name="Druid_Dialog2_5_1"
+		text="Всё, иди-иди! Я больше ничего не знаю и знать не хочу. И не возвращайся сюда!"
+		role="NPC"
+		nextReplies="Druid_Dialog2_5_2" />
+
+	<Reply
+		name="Druid_Dialog2_5_2"
+		text="[…Ну и Бог с тобой, психопат…]"
+		role="PLAYER"
+		scriptResult="GetPlayerVehicle():SetCustomLinearVelocity(0); AddFadingMsgByStrIdFormatted( 'fm_player_add_thing', 'quest_blueprints'); AddQuestItem('quest_blueprints'); AddFadingMsgId( 'fm_history_got' ); AddHistory( 'stranded_4' ); CompleteQuest('Stranded_Quest3_3'); TakeQuest('Stranded_ArtefactQuest')  EndConversation();" />
+</DialogsResource>

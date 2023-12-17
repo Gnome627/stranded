@@ -1,0 +1,48 @@
+# unique service name
+name: stranded
+
+# required human readable info
+display_name: stranded
+version: "1.0"
+build: "1"
+description: |
+  Байка про пустынный остров с элементами выживания.
+authors: Gnome627, EM2ch
+
+# optional human readable info
+release_date: '2023'
+language: ru
+logo: assets/new_logo.png
+install_banner: assets/new_banner.png
+tags: [story, gameplay]
+screenshots:
+  - img: assets/screen_1.jpg
+    text: |
+      Пейзаж Сакадина
+  - img: assets/screen_2.jpg
+    text: |
+      Рэднек — стартовый автомобиль игрока
+  - img: assets/screen_3.jpg
+    text: |
+      Хижина ???
+  - img: assets/screen_4.jpg
+    text: |
+      "Торнадо" в пустыне
+  - img: assets/screen_5.jpg
+    text: |
+      Чиф Бёрт на заправочной станции
+  - img: assets/screen_6.jpg
+    text: |
+      База игрока
+
+# installation confguration
+prerequisites: 
+  - name: community_remaster
+    versions:
+      - "1.14"
+
+config_options:
+  firstLevel: "somalia"
+
+patcher_version_requirement: "1.14"
+no_base_content: false

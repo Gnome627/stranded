@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Weather>
+	<WeatherItem
+		name="somalia_clear">
+		<ColorType
+			name="sunrise"
+			LightmapTexture="diffusemap_somalia_morning.dds"
+			CloudsTexture="skyclear1.dds" />
+
+		<ColorType
+			name="day"
+			LightmapTexture="diffusemap_somalia_day.dds"
+			CloudsTexture="skyclear3.dds" />
+
+		<ColorType
+			name="sunset"
+			LightmapTexture="diffusemap_somalia_evening.dds"
+			CloudsTexture="skyblight.dds" />
+
+		<ColorType
+			name="night"
+			LightmapTexture="diffusemap_somalia_night.dds"
+			CloudsTexture="skyashstorm.dds" />
+	</WeatherItem>
+</Weather>

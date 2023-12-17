@@ -1,0 +1,4945 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="584">
+	<TargetNamesForDestroy
+		Names="" />
+
+	<Object
+		Name="Player1"
+		Belong="1100"
+		Prototype="player"
+		Money="500">
+		<Object
+			Name="MyCar"
+			Belong="1100"
+			Prototype="ChevC1001"
+			Pos="4523.825 319.782 5260.794"
+			Rot="0.025 0.003 0.002 1.000">
+			<Parts />
+
+			<Repository />
+		</Object>
+	</Object>
+
+	<Object
+		Name="desert_dtree_1_dyn0"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3811.600 316.862 4688.662"
+		Rot="0.000 0.508 0.000 0.862" />
+
+	<Object
+		Name="desert_dtree_1_dyn1"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3719.326 317.596 4816.908"
+		Rot="0.000 0.566 0.000 0.824" />
+
+	<Object
+		Name="desert_dtree_1_dyn2"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3977.655 318.073 4761.430"
+		Rot="0.000 0.017 0.000 1.000" />
+
+	<Object
+		Name="desert_dtree_1_dyn3"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4002.067 314.971 4852.650"
+		Rot="0.000 -0.199 0.000 0.980" />
+
+	<Object
+		Name="desert_dtree_2_dyn4"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4040.267 319.868 4983.650"
+		Rot="0.000 -0.643 0.000 0.766" />
+
+	<Object
+		Name="desert_dtree_2_dyn5"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3922.483 315.121 5074.328"
+		Rot="0.000 -0.595 0.000 0.804" />
+
+	<Object
+		Name="desert_dtree_2_dyn6"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3929.013 314.603 5227.525"
+		Rot="0.000 0.663 0.000 0.749" />
+
+	<Object
+		Name="desert_dtree_1_dyn7"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3874.349 315.460 5168.752"
+		Rot="0.000 0.974 0.000 -0.225" />
+
+	<Object
+		Name="desert_dtree_1_dyn8"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3756.666 314.313 5259.947"
+		Rot="0.000 -0.862 0.000 0.508" />
+
+	<Object
+		Name="desert_dtree_1_dyn9"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4070.719 316.723 4854.134"
+		Rot="0.000 0.492 0.000 0.870" />
+
+	<Object
+		Name="desert_dtree_1_dyn10"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4112.264 316.553 4795.223"
+		Rot="0.000 0.676 0.000 0.737" />
+
+	<Object
+		Name="desert_tree_2_dyn11"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4016.586 317.221 4878.838"
+		Rot="0.000 0.875 0.000 0.485" />
+
+	<Object
+		Name="desert_tree_2_dyn12"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="3881.591 315.432 5244.434"
+		Rot="0.000 -0.809 0.000 0.588" />
+
+	<Object
+		Name="desert_tree_3_dyn13"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3776.798 313.479 5250.839"
+		Rot="0.000 0.537 0.000 0.843" />
+
+	<Object
+		Name="desert_tree_3_dyn14"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4056.773 319.243 4893.281"
+		Rot="0.000 -0.500 0.000 0.866" />
+
+	<Object
+		Name="desert_tree_1_dyn15"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4062.534 314.882 4817.975"
+		Rot="0.000 0.052 0.000 0.999" />
+
+	<Object
+		Name="desert_dtree_1_dyn16"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3804.217 312.293 5340.083"
+		Rot="0.000 0.799 0.000 0.602" />
+
+	<Object
+		Name="desert_dtree_1_dyn17"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4252.778 316.047 5134.491"
+		Rot="0.000 0.988 0.000 -0.156" />
+
+	<Object
+		Name="desert_dtree_1_dyn18"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3729.222 318.882 4598.177"
+		Rot="0.000 0.301 0.000 0.954" />
+
+	<Object
+		Name="desert_dtree_2_dyn19"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3808.147 317.332 4477.443"
+		Rot="0.000 -0.052 0.000 0.999" />
+
+	<Object
+		Name="desert_dtree_2_dyn20"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3755.468 313.535 4464.693"
+		Rot="0.000 -0.358 0.000 0.934" />
+
+	<Object
+		Name="desert_dtree_2_dyn21"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3905.096 314.540 4271.875"
+		Rot="0.000 -0.656 0.000 0.755" />
+
+	<Object
+		Name="desert_dtree_1_dyn22"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3702.237 313.030 5170.948"
+		Rot="0.000 0.695 0.000 0.719" />
+
+	<Object
+		Name="desert_dtree_1_dyn23"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3571.521 314.685 5064.932"
+		Rot="0.000 0.972 0.000 -0.233" />
+
+	<Object
+		Name="desert_dtree_2_dyn24"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3664.131 314.772 4960.772"
+		Rot="0.000 0.910 0.000 0.415" />
+
+	<Object
+		Name="desert_dtree_2_dyn25"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3908.743 313.550 4387.406"
+		Rot="0.000 0.334 0.000 0.943" />
+
+	<Object
+		Name="desert_dtree_2_dyn26"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3991.209 312.653 4467.058"
+		Rot="0.000 0.999 0.000 0.052" />
+
+	<Object
+		Name="desert_dtree_2_dyn27"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4428.014 312.875 4304.392"
+		Rot="0.000 0.292 0.000 0.956" />
+
+	<Object
+		Name="desert_dtree_1_dyn28"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4348.515 314.039 4247.216"
+		Rot="0.000 0.017 0.000 1.000" />
+
+	<Object
+		Name="desert_dtree_1_dyn29"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4392.577 312.943 4224.511"
+		Rot="0.000 0.829 0.000 0.559" />
+
+	<Object
+		Name="desert_dtree_2_dyn30"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4354.698 314.262 4277.075"
+		Rot="0.000 -0.819 0.000 0.574" />
+
+	<Object
+		Name="desert_dtree_2_dyn31"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4232.603 313.835 4700.750"
+		Rot="0.000 0.174 0.000 0.985" />
+
+	<Object
+		Name="desert_dtree_2_dyn32"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4540.473 313.947 4763.775"
+		Rot="0.000 -0.731 0.000 0.682" />
+
+	<Object
+		Name="desert_dtree_2_dyn33"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4557.855 316.359 4720.554"
+		Rot="0.000 0.649 0.000 0.760" />
+
+	<Object
+		Name="desert_dtree_1_dyn34"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4537.109 312.950 4692.816" />
+
+	<Object
+		Name="desert_dtree_1_dyn35"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4616.744 313.160 4564.722"
+		Rot="0.000 0.078 0.000 0.997" />
+
+	<Object
+		Name="desert_dtree_1_dyn36"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4562.486 313.245 4471.452"
+		Rot="0.000 0.829 0.000 0.559" />
+
+	<Object
+		Name="desert_dtree_1_dyn37"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4480.403 315.611 4500.223"
+		Rot="0.000 0.887 0.000 0.462" />
+
+	<Object
+		Name="desert_dtree_1_dyn38"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4482.803 316.811 4442.775"
+		Rot="0.000 0.122 0.000 0.993" />
+
+	<Object
+		Name="desert_dtree_1_dyn39"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4414.540 313.105 4512.263"
+		Rot="0.000 -0.358 0.000 0.934" />
+
+	<Object
+		Name="desert_dtree_2_dyn40"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4455.825 315.098 4472.214"
+		Rot="0.000 0.956 0.000 0.292" />
+
+	<Object
+		Name="desert_dtree_2_dyn41"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3928.255 315.509 5146.623"
+		Rot="0.000 0.917 0.000 0.399" />
+
+	<Object
+		Name="desert_dtree_2_dyn42"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3890.556 315.674 5102.867"
+		Rot="0.000 0.284 0.000 0.959" />
+
+	<Object
+		Name="desert_dtree_2_dyn43"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3990.356 319.746 4940.764"
+		Rot="0.000 0.391 0.000 0.920" />
+
+	<Object
+		Name="desert_dtree_2_dyn44"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3941.411 317.503 5010.152"
+		Rot="0.000 -0.477 0.000 0.879" />
+
+	<Object
+		Name="desert_dtree_2_dyn45"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4055.636 314.354 4173.779"
+		Rot="0.000 0.895 0.000 0.446" />
+
+	<Object
+		Name="desert_dtree_2_dyn46"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4128.708 313.801 4199.014"
+		Rot="0.000 -0.216 0.000 0.976" />
+
+	<Object
+		Name="desert_dtree_2_dyn47"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4100.432 314.383 4040.521"
+		Rot="0.000 0.966 0.000 0.259" />
+
+	<Object
+		Name="desert_dtree_1_dyn48"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4199.523 315.963 4038.005"
+		Rot="0.000 0.934 0.000 0.358" />
+
+	<Object
+		Name="desert_dtree_1_dyn49"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4111.341 313.908 4084.472"
+		Rot="0.000 0.688 0.000 0.725" />
+
+	<Object
+		Name="desert_dtree_1_dyn50"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4302.080 315.246 4154.242"
+		Rot="0.000 0.887 0.000 0.462" />
+
+	<Object
+		Name="desert_dtree_1_dyn51"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4323.106 315.565 3994.929"
+		Rot="0.000 0.930 0.000 -0.367" />
+
+	<Object
+		Name="desert_dtree_2_dyn52"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4295.998 317.119 4203.168"
+		Rot="0.000 0.052 0.000 0.999" />
+
+	<Object
+		Name="desert_dtree_2_dyn53"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4600.882 312.606 4114.367"
+		Rot="0.000 0.105 0.000 0.994" />
+
+	<Object
+		Name="desert_dtree_1_dyn54"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4653.464 312.789 4121.509"
+		Rot="0.000 0.956 0.000 0.292" />
+
+	<Object
+		Name="desert_dtree_1_dyn55"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4608.083 310.227 4183.644"
+		Rot="0.000 0.500 0.000 0.866" />
+
+	<Object
+		Name="desert_dtree_1_dyn56"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4756.514 308.723 4081.424"
+		Rot="0.000 0.233 0.000 0.972" />
+
+	<Object
+		Name="desert_dtree_1_dyn57"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4776.244 309.700 4100.243"
+		Rot="0.000 -0.477 0.000 0.879" />
+
+	<Object
+		Name="desert_dtree_1_dyn58"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4895.503 309.257 4083.902"
+		Rot="0.000 0.843 0.000 0.537" />
+
+	<Object
+		Name="desert_dtree_1_dyn59"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4965.086 307.167 4020.289"
+		Rot="0.000 0.446 0.000 0.895" />
+
+	<Object
+		Name="desert_dtree_1_dyn60"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4637.537 306.299 4281.493"
+		Rot="0.000 0.924 0.000 -0.383" />
+
+	<Object
+		Name="desert_dtree_1_dyn61"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4762.332 305.329 4420.055"
+		Rot="0.000 0.688 0.000 0.725" />
+
+	<Object
+		Name="desert_dtree_2_dyn62"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4600.223 304.667 4299.843"
+		Rot="0.000 -0.276 0.000 0.961" />
+
+	<Object
+		Name="desert_dtree_2_dyn63"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4599.499 303.836 4369.740"
+		Rot="0.000 -0.242 0.000 0.970" />
+
+	<Object
+		Name="desert_dtree_2_dyn64"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4916.199 306.760 4195.541"
+		Rot="0.000 -0.301 0.000 0.954" />
+
+	<Object
+		Name="desert_dtree_2_dyn65"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4448.580 312.654 4776.875"
+		Rot="0.000 0.954 0.000 0.301" />
+
+	<Object
+		Name="desert_dtree_2_dyn66"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4403.408 314.706 5018.829"
+		Rot="0.000 -0.793 0.000 0.609" />
+
+	<Object
+		Name="desert_dtree_1_dyn67"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4323.363 315.555 4976.342"
+		Rot="0.000 0.999 0.000 0.052" />
+
+	<Object
+		Name="desert_dtree_1_dyn68"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4719.564 318.720 5164.780"
+		Rot="0.000 0.875 0.000 0.485" />
+
+	<Object
+		Name="desert_dtree_1_dyn69"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4683.205 315.780 5024.736"
+		Rot="0.000 -0.292 0.000 0.956" />
+
+	<Object
+		Name="desert_dtree_1_dyn70"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4506.856 315.932 5016.884"
+		Rot="0.000 0.985 0.000 -0.174" />
+
+	<Object
+		Name="desert_dtree_1_dyn71"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3786.828 314.610 5043.573"
+		Rot="0.000 0.985 0.000 0.174" />
+
+	<Object
+		Name="desert_dtree_1_dyn72"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4138.326 316.510 5344.678"
+		Rot="0.000 0.105 0.000 0.994" />
+
+	<Object
+		Name="desert_dtree_1_dyn73"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4409.759 317.233 5276.636"
+		Rot="0.000 0.199 0.000 0.980" />
+
+	<Object
+		Name="desert_dtree_1_dyn74"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4393.114 316.785 5537.171"
+		Rot="0.000 0.954 0.000 0.301" />
+
+	<Object
+		Name="desert_dtree_1_dyn75"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4531.823 314.859 5726.731"
+		Rot="0.000 0.964 0.000 -0.267" />
+
+	<Object
+		Name="desert_dtree_2_dyn76"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4394.559 313.599 5586.676"
+		Rot="0.000 0.983 0.000 0.182" />
+
+	<Object
+		Name="desert_dtree_2_dyn77"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4613.803 315.857 5494.948"
+		Rot="0.000 0.749 0.000 0.663" />
+
+	<Object
+		Name="desert_dtree_2_dyn78"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4549.886 312.012 5931.751"
+		Rot="0.000 0.976 0.000 -0.216" />
+
+	<Object
+		Name="desert_dtree_2_dyn79"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4407.346 306.064 6081.604"
+		Rot="0.000 0.454 0.000 0.891" />
+
+	<Object
+		Name="desert_dtree_2_dyn80"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4194.916 314.294 5521.980"
+		Rot="0.000 -0.559 0.000 0.829" />
+
+	<Object
+		Name="desert_dtree_2_dyn81"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4809.751 318.962 5378.243"
+		Rot="0.000 0.824 0.000 0.566" />
+
+	<Object
+		Name="desert_dtree_2_dyn82"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5137.797 315.977 5242.004"
+		Rot="0.000 -0.701 0.000 0.713" />
+
+	<Object
+		Name="desert_dtree_2_dyn83"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5214.870 317.734 5018.522"
+		Rot="0.000 0.105 0.000 0.994" />
+
+	<Object
+		Name="desert_dtree_1_dyn84"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5189.223 318.757 5285.307"
+		Rot="0.000 -0.399 0.000 0.917" />
+
+	<Object
+		Name="desert_dtree_1_dyn85"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4899.428 304.170 4671.458"
+		Rot="0.000 0.669 0.000 0.743" />
+
+	<Object
+		Name="desert_dtree_1_dyn86"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5318.526 302.372 4661.305"
+		Rot="0.000 0.462 0.000 0.887" />
+
+	<Object
+		Name="desert_dtree_2_dyn87"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5418.257 305.060 4658.297"
+		Rot="0.000 0.879 0.000 0.477" />
+
+	<Object
+		Name="desert_dtree_2_dyn88"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5149.534 313.635 4270.358"
+		Rot="0.000 0.961 0.000 -0.276" />
+
+	<Object
+		Name="desert_dtree_2_dyn89"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5248.582 313.484 4104.558"
+		Rot="0.000 -0.609 0.000 0.793" />
+
+	<Object
+		Name="desert_dtree_2_dyn90"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5539.845 308.992 4966.111"
+		Rot="0.000 0.891 0.000 -0.454" />
+
+	<Object
+		Name="desert_dtree_2_dyn91"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5627.548 310.593 5042.581"
+		Rot="0.000 0.866 0.000 0.500" />
+
+	<Object
+		Name="desert_dtree_1_dyn92"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5747.438 311.353 5044.909"
+		Rot="0.000 0.052 0.000 0.999" />
+
+	<Object
+		Name="desert_dtree_1_dyn93"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5351.233 317.924 5047.409"
+		Rot="0.000 0.891 0.000 -0.454" />
+
+	<Object
+		Name="desert_dtree_1_dyn94"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5517.292 312.356 5557.416"
+		Rot="0.000 0.839 0.000 0.545" />
+
+	<Object
+		Name="desert_dtree_1_dyn95"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5846.875 311.037 5754.793"
+		Rot="0.000 0.477 0.000 0.879" />
+
+	<Object
+		Name="desert_dtree_1_dyn96"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5784.175 312.075 5661.204"
+		Rot="0.000 0.574 0.000 0.819" />
+
+	<Object
+		Name="desert_dtree_2_dyn97"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5746.197 309.152 5666.557"
+		Rot="0.000 -0.017 0.000 1.000" />
+
+	<Object
+		Name="desert_dtree_2_dyn98"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5581.811 307.230 5833.420"
+		Rot="0.000 0.968 0.000 0.250" />
+
+	<Object
+		Name="desert_dtree_2_dyn99"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5771.379 306.101 5993.698"
+		Rot="0.000 0.707 0.000 0.707" />
+
+	<Object
+		Name="desert_dtree_2_dyn100"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5807.466 309.555 5571.127"
+		Rot="0.000 0.990 0.000 -0.139" />
+
+	<Object
+		Name="desert_dtree_2_dyn101"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5741.412 304.662 6224.376"
+		Rot="0.000 0.914 0.000 -0.407" />
+
+	<Object
+		Name="desert_dtree_2_dyn102"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5516.715 308.688 6187.376"
+		Rot="0.000 -0.609 0.000 0.793" />
+
+	<Object
+		Name="desert_dtree_1_dyn103"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5602.572 305.109 6377.913"
+		Rot="0.000 1.000 0.000 0.000" />
+
+	<Object
+		Name="desert_dtree_1_dyn104"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5466.996 298.802 6383.893"
+		Rot="0.000 0.982 0.000 -0.191" />
+
+	<Object
+		Name="desert_dtree_1_dyn105"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5197.100 301.165 6265.551"
+		Rot="0.000 0.508 0.000 0.862" />
+
+	<Object
+		Name="desert_dtree_1_dyn106"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5306.670 299.293 6269.844"
+		Rot="0.000 1.000 0.000 -0.017" />
+
+	<Object
+		Name="desert_dtree_2_dyn107"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5353.389 300.178 6288.748"
+		Rot="0.000 -0.250 0.000 0.968" />
+
+	<Object
+		Name="desert_dtree_2_dyn108"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5073.457 298.275 6261.038"
+		Rot="0.000 0.974 0.000 0.225" />
+
+	<Object
+		Name="desert_dtree_2_dyn109"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5020.055 300.913 6358.371"
+		Rot="0.000 0.061 0.000 0.998" />
+
+	<Object
+		Name="desert_dtree_2_dyn110"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4834.342 302.887 6305.965"
+		Rot="0.000 0.930 0.000 0.367" />
+
+	<Object
+		Name="desert_dtree_1_dyn111"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4849.050 302.583 6350.070"
+		Rot="0.000 0.199 0.000 0.980" />
+
+	<Object
+		Name="desert_tree_1_dyn112"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4980.841 299.004 6359.398"
+		Rot="0.000 -0.669 0.000 0.743" />
+
+	<Object
+		Name="desert_tree_3_dyn113"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4969.832 300.536 6318.778"
+		Rot="0.000 -0.208 0.000 0.978" />
+
+	<Object
+		Name="desert_tree_3_dyn114"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4715.283 302.195 6426.519"
+		Rot="0.000 0.993 0.000 -0.122" />
+
+	<Object
+		Name="desert_dtree_2_dyn115"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4768.549 302.513 6441.134"
+		Rot="0.000 -0.156 0.000 0.988" />
+
+	<Object
+		Name="desert_dtree_1_dyn116"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4679.448 303.653 6383.802"
+		Rot="0.000 0.956 0.000 -0.292" />
+
+	<Object
+		Name="desert_dtree_1_dyn117"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4248.333 307.693 6315.316"
+		Rot="0.000 -0.559 0.000 0.829" />
+
+	<Object
+		Name="desert_dtree_1_dyn118"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4205.398 305.045 6220.535"
+		Rot="0.000 -0.713 0.000 0.701" />
+
+	<Object
+		Name="desert_dtree_1_dyn119"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4287.735 306.491 6253.125"
+		Rot="0.000 0.972 0.000 -0.233" />
+
+	<Object
+		Name="desert_dtree_1_dyn120"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4141.709 306.417 6180.144"
+		Rot="0.000 -0.122 0.000 0.993" />
+
+	<Object
+		Name="desert_dtree_2_dyn121"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4099.989 308.698 6124.759"
+		Rot="0.000 0.959 0.000 0.284" />
+
+	<Object
+		Name="desert_dtree_2_dyn122"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3992.891 310.359 5979.341"
+		Rot="0.000 0.182 0.000 0.983" />
+
+	<Object
+		Name="desert_dtree_2_dyn123"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4362.998 308.426 6048.552"
+		Rot="0.000 -0.122 0.000 0.993" />
+
+	<Object
+		Name="desert_dtree_1_dyn124"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4446.751 303.806 6369.057"
+		Rot="0.000 0.839 0.000 0.545" />
+
+	<Object
+		Name="desert_dtree_1_dyn125"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3854.448 309.740 5735.273"
+		Rot="0.000 -0.284 0.000 0.959" />
+
+	<Object
+		Name="desert_dtree_1_dyn126"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4017.906 313.030 5613.268"
+		Rot="0.000 0.799 0.000 0.602" />
+
+	<Object
+		Name="desert_dtree_1_dyn127"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3874.388 314.084 5570.827"
+		Rot="0.000 0.972 0.000 -0.233" />
+
+	<Object
+		Name="desert_dtree_1_dyn128"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4150.980 314.588 5780.697"
+		Rot="0.000 0.895 0.000 0.446" />
+
+	<Object
+		Name="desert_dtree_1_dyn129"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5018.192 310.602 4320.158"
+		Rot="0.000 0.914 0.000 -0.407" />
+
+	<Object
+		Name="desert_tree_2_dyn130"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="3310.744 313.057 5087.748"
+		Rot="0.000 0.804 0.000 0.595" />
+
+	<Object
+		Name="desert_tree_2_dyn131"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="3463.318 313.208 5212.875"
+		Rot="0.000 0.998 0.000 0.070" />
+
+	<Object
+		Name="desert_tree_2_dyn132"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="3437.182 313.852 5346.304"
+		Rot="0.000 0.988 0.000 0.156" />
+
+	<Object
+		Name="desert_tree_2_dyn133"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="3536.990 312.872 5521.534"
+		Rot="0.000 0.643 0.000 0.766" />
+
+	<Object
+		Name="desert_tree_2_dyn134"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="3122.607 312.762 5006.380"
+		Rot="0.000 -0.649 0.000 0.760" />
+
+	<Object
+		Name="desert_tree_3_dyn135"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3271.625 310.885 5193.203"
+		Rot="0.000 0.999 0.000 -0.052" />
+
+	<Object
+		Name="desert_tree_3_dyn136"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3412.698 315.227 5040.607"
+		Rot="0.000 -0.515 0.000 0.857" />
+
+	<Object
+		Name="desert_tree_3_dyn137"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3436.677 315.426 5026.078"
+		Rot="0.000 0.853 0.000 0.522" />
+
+	<Object
+		Name="desert_tree_3_dyn138"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3439.971 315.958 5074.044"
+		Rot="0.000 -0.857 0.000 0.515" />
+
+	<Object
+		Name="desert_tree_3_dyn139"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3322.116 313.618 5005.825"
+		Rot="0.000 0.755 0.000 0.656" />
+
+	<Object
+		Name="desert_tree_3_dyn140"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3312.237 312.701 4912.077"
+		Rot="0.000 0.899 0.000 -0.438" />
+
+	<Object
+		Name="desert_tree_3_dyn141"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3375.222 313.791 5231.101"
+		Rot="0.000 0.508 0.000 0.862" />
+
+	<Object
+		Name="desert_tree_1_dyn142"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3374.852 313.351 5181.723"
+		Rot="0.000 -0.755 0.000 0.656" />
+
+	<Object
+		Name="desert_tree_1_dyn143"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3413.682 314.100 5223.001"
+		Rot="0.000 0.438 0.000 0.899" />
+
+	<Object
+		Name="desert_tree_1_dyn144"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3337.792 313.449 5283.379"
+		Rot="0.000 0.899 0.000 -0.438" />
+
+	<Object
+		Name="desert_tree_1_dyn145"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3528.427 314.365 5361.600"
+		Rot="0.000 0.391 0.000 0.920" />
+
+	<Object
+		Name="desert_tree_1_dyn146"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3521.422 313.520 5327.096"
+		Rot="0.000 0.788 0.000 0.616" />
+
+	<Object
+		Name="desert_tree_3_dyn147"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3505.809 313.983 5356.324"
+		Rot="0.000 -0.267 0.000 0.964" />
+
+	<Object
+		Name="desert_tree_3_dyn148"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3455.883 315.533 5485.448"
+		Rot="0.000 0.930 0.000 0.367" />
+
+	<Object
+		Name="desert_tree_3_dyn149"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3367.161 312.927 5121.647"
+		Rot="0.000 0.974 0.000 -0.225" />
+
+	<Object
+		Name="desert_tree_3_dyn150"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3198.556 313.240 5141.931"
+		Rot="0.000 -0.165 0.000 0.986" />
+
+	<Object
+		Name="desert_tree_3_dyn151"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3238.231 314.032 4930.242"
+		Rot="0.000 0.988 0.000 0.156" />
+
+	<Object
+		Name="desert_tree_1_dyn152"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3263.916 313.937 4943.675"
+		Rot="0.000 -0.552 0.000 0.834" />
+
+	<Object
+		Name="desert_tree_1_dyn153"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3242.920 313.950 5040.573"
+		Rot="0.000 0.469 0.000 0.883" />
+
+	<Object
+		Name="desert_dtree_2_dyn154"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3457.264 315.414 5167.194"
+		Rot="0.000 0.725 0.000 0.688" />
+
+	<Object
+		Name="desert_dtree_2_dyn155"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3239.181 313.774 5017.115"
+		Rot="0.000 -0.415 0.000 0.910" />
+
+	<Object
+		Name="desert_dtree_2_dyn156"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3246.284 311.216 5143.652"
+		Rot="0.000 -0.367 0.000 0.930" />
+
+	<Object
+		Name="desert_dtree_2_dyn157"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3307.378 313.684 4948.730"
+		Rot="0.000 -0.477 0.000 0.879" />
+
+	<Object
+		Name="desert_dtree_2_dyn158"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3256.112 314.008 4980.423"
+		Rot="0.000 -0.701 0.000 0.713" />
+
+	<Object
+		Name="desert_dtree_1_dyn159"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3244.157 312.275 5111.425"
+		Rot="0.000 -0.609 0.000 0.793" />
+
+	<Object
+		Name="desert_dtree_1_dyn160"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3307.145 313.264 5195.617"
+		Rot="0.000 0.986 0.000 -0.165" />
+
+	<Object
+		Name="desert_dtree_1_dyn161"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3157.818 315.267 5154.410"
+		Rot="0.000 -0.383 0.000 0.924" />
+
+	<Object
+		Name="desert_dtree_1_dyn162"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3383.668 314.128 5431.619"
+		Rot="0.000 -0.301 0.000 0.954" />
+
+	<Object
+		Name="desert_dtree_1_dyn163"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3477.362 314.159 5455.927"
+		Rot="0.000 -0.326 0.000 0.945" />
+
+	<Object
+		Name="desert_dtree_2_dyn164"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3456.730 313.640 5417.569"
+		Rot="0.000 -0.122 0.000 0.993" />
+
+	<Object
+		Name="desert_dtree_2_dyn165"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3558.168 313.283 5492.727"
+		Rot="0.000 -0.819 0.000 0.574" />
+
+	<Object
+		Name="desert_tree_1_dyn166"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3606.015 312.414 5655.438"
+		Rot="0.000 0.070 0.000 0.998" />
+
+	<Object
+		Name="desert_tree_1_dyn167"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3527.771 315.251 5615.246"
+		Rot="0.000 0.993 0.000 -0.122" />
+
+	<Object
+		Name="desert_tree_2_dyn168"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="3649.730 309.258 5756.753"
+		Rot="0.000 0.961 0.000 0.276" />
+
+	<Object
+		Name="desert_tree_3_dyn169"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3711.525 312.370 5853.775"
+		Rot="0.000 1.000 0.000 0.026" />
+
+	<Object
+		Name="desert_tree_3_dyn170"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3783.581 308.224 6041.895"
+		Rot="0.000 -0.595 0.000 0.804" />
+
+	<Object
+		Name="desert_tree_2_dyn171"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="3737.816 309.256 6021.157"
+		Rot="0.000 -0.743 0.000 0.669" />
+
+	<Object
+		Name="desert_dtree_1_dyn172"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3762.613 311.583 5962.662"
+		Rot="0.000 0.983 0.000 -0.182" />
+
+	<Object
+		Name="desert_dtree_1_dyn173"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3666.784 309.354 5917.045"
+		Rot="0.000 0.156 0.000 0.988" />
+
+	<Object
+		Name="desert_dtree_2_dyn174"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3771.628 314.098 5867.105"
+		Rot="0.000 0.853 0.000 0.522" />
+
+	<Object
+		Name="desert_dtree_2_dyn175"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3698.550 311.591 5809.906"
+		Rot="0.000 0.044 0.000 0.999" />
+
+	<Object
+		Name="desert_dtree_2_dyn176"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3578.824 312.158 5714.336"
+		Rot="0.000 1.000 0.000 -0.026" />
+
+	<Object
+		Name="desert_dtree_2_dyn177"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3623.967 312.762 5655.291"
+		Rot="0.000 0.970 0.000 -0.242" />
+
+	<Object
+		Name="desert_dtree_1_dyn178"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3527.990 314.584 5578.775"
+		Rot="0.000 -0.737 0.000 0.676" />
+
+	<Object
+		Name="desert_dtree_1_dyn179"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3542.932 314.024 5643.459"
+		Rot="0.000 0.990 0.000 0.139" />
+
+	<Object
+		Name="desert_dtree_1_dyn180"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3363.423 313.161 5655.480"
+		Rot="0.000 0.985 0.000 0.174" />
+
+	<Object
+		Name="desert_dtree_1_dyn181"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3359.482 311.151 5582.538"
+		Rot="0.000 0.972 0.000 0.233" />
+
+	<Object
+		Name="desert_tree_1_dyn182"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3361.507 311.213 5604.633"
+		Rot="0.000 -0.688 0.000 0.725" />
+
+	<Object
+		Name="desert_tree_1_dyn183"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3310.513 306.463 6098.784"
+		Rot="0.000 -0.515 0.000 0.857" />
+
+	<Object
+		Name="desert_tree_1_dyn184"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3169.199 304.561 6253.560"
+		Rot="0.000 0.948 0.000 0.317" />
+
+	<Object
+		Name="desert_dtree_1_dyn185"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3331.264 308.893 6099.167"
+		Rot="0.000 0.438 0.000 0.899" />
+
+	<Object
+		Name="desert_dtree_1_dyn186"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3379.642 303.261 6164.766"
+		Rot="0.000 0.968 0.000 -0.250" />
+
+	<Object
+		Name="desert_dtree_1_dyn187"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3189.138 304.775 6244.897"
+		Rot="0.000 -0.695 0.000 0.719" />
+
+	<Object
+		Name="desert_dtree_1_dyn188"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3170.877 301.702 6358.115"
+		Rot="0.000 0.996 0.000 -0.087" />
+
+	<Object
+		Name="desert_dtree_1_dyn189"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3243.361 307.166 6536.511"
+		Rot="0.000 -0.676 0.000 0.737" />
+
+	<Object
+		Name="desert_dtree_2_dyn190"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3186.863 304.810 6080.131"
+		Rot="0.000 0.895 0.000 -0.446" />
+
+	<Object
+		Name="desert_dtree_2_dyn191"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3138.601 302.567 6055.711"
+		Rot="0.000 0.887 0.000 -0.462" />
+
+	<Object
+		Name="desert_dtree_2_dyn192"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3135.453 299.774 6250.596"
+		Rot="0.000 -0.139 0.000 0.990" />
+
+	<Object
+		Name="desert_dtree_2_dyn193"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3296.045 309.646 6063.095"
+		Rot="0.000 0.292 0.000 0.956" />
+
+	<Object
+		Name="desert_dtree_2_dyn194"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3378.918 311.263 6058.762"
+		Rot="0.000 -0.165 0.000 0.986" />
+
+	<Object
+		Name="desert_dtree_2_dyn195"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3486.336 306.053 5981.627"
+		Rot="0.000 0.044 0.000 0.999" />
+
+	<Object
+		Name="desert_dtree_2_dyn196"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3627.982 304.537 6091.517"
+		Rot="0.000 0.492 0.000 0.870" />
+
+	<Object
+		Name="desert_dtree_1_dyn197"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3700.052 306.765 6090.974"
+		Rot="0.000 0.986 0.000 0.165" />
+
+	<Object
+		Name="desert_dtree_1_dyn198"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3826.721 307.242 6418.089"
+		Rot="0.000 0.793 0.000 0.609" />
+
+	<Object
+		Name="desert_dtree_1_dyn199"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3951.890 302.265 6492.216"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="desert_dtree_2_dyn200"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3812.757 305.555 6461.865"
+		Rot="0.000 0.469 0.000 0.883" />
+
+	<Object
+		Name="desert_dtree_2_dyn201"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3527.095 301.920 6358.370"
+		Rot="0.000 -0.017 0.000 1.000" />
+
+	<Object
+		Name="desert_dtree_1_dyn202"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3492.743 304.300 6311.957"
+		Rot="0.000 -0.766 0.000 0.643" />
+
+	<Object
+		Name="desert_dtree_1_dyn203"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3466.574 299.025 6395.015"
+		Rot="0.000 0.997 0.000 -0.078" />
+
+	<Object
+		Name="desert_dtree_1_dyn204"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3346.528 304.961 6230.113"
+		Rot="0.000 0.917 0.000 0.399" />
+
+	<Object
+		Name="desert_dtree_1_dyn205"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="2843.676 313.081 5277.169"
+		Rot="0.000 -0.477 0.000 0.879" />
+
+	<Object
+		Name="desert_dtree_1_dyn206"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="2996.651 313.619 5228.335"
+		Rot="0.000 0.961 0.000 0.276" />
+
+	<Object
+		Name="desert_dtree_1_dyn207"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3103.681 308.234 5539.163"
+		Rot="0.000 -0.574 0.000 0.819" />
+
+	<Object
+		Name="desert_dtree_1_dyn208"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3077.108 312.426 5440.170"
+		Rot="0.000 0.945 0.000 -0.326" />
+
+	<Object
+		Name="desert_dtree_1_dyn209"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3350.197 314.153 5469.150"
+		Rot="0.000 0.783 0.000 0.623" />
+
+	<Object
+		Name="desert_dtree_1_dyn210"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3304.498 313.025 5343.205"
+		Rot="0.000 0.943 0.000 -0.334" />
+
+	<Object
+		Name="desert_dtree_1_dyn211"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3252.740 312.896 5263.868"
+		Rot="0.000 0.415 0.000 0.910" />
+
+	<Object
+		Name="desert_dtree_1_dyn212"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3540.316 315.557 4908.563"
+		Rot="0.000 -0.500 0.000 0.866" />
+
+	<Object
+		Name="desert_dtree_1_dyn213"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3497.560 314.808 4814.946"
+		Rot="0.000 0.515 0.000 0.857" />
+
+	<Object
+		Name="desert_dtree_1_dyn214"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3497.963 314.442 5039.273"
+		Rot="0.000 0.968 0.000 -0.250" />
+
+	<Object
+		Name="desert_dtree_2_dyn215"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3493.938 314.127 4984.809"
+		Rot="0.000 0.469 0.000 0.883" />
+
+	<Object
+		Name="desert_dtree_2_dyn216"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3411.873 316.719 4828.588"
+		Rot="0.000 0.334 0.000 0.943" />
+
+	<Object
+		Name="desert_dtree_2_dyn217"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3402.713 312.817 4917.036"
+		Rot="0.000 -0.423 0.000 0.906" />
+
+	<Object
+		Name="desert_dtree_2_dyn218"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3522.829 313.971 5232.245"
+		Rot="0.000 0.934 0.000 0.358" />
+
+	<Object
+		Name="desert_dtree_2_dyn219"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3391.302 314.229 5329.930"
+		Rot="0.000 0.804 0.000 0.595" />
+
+	<Object
+		Name="desert_dtree_2_dyn220"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3686.771 313.928 5338.275"
+		Rot="0.000 -0.595 0.000 0.804" />
+
+	<Object
+		Name="desert_dtree_2_dyn221"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3902.872 309.791 6068.117"
+		Rot="0.000 -0.623 0.000 0.783" />
+
+	<Object
+		Name="desert_dtree_2_dyn222"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4021.989 310.764 6270.934"
+		Rot="0.000 0.927 0.000 0.375" />
+
+	<Object
+		Name="desert_dtree_2_dyn223"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3991.568 299.404 6404.271"
+		Rot="0.000 0.924 0.000 -0.383" />
+
+	<Object
+		Name="desert_dtree_2_dyn224"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4245.188 302.808 6532.672"
+		Rot="0.000 -0.276 0.000 0.961" />
+
+	<Object
+		Name="desert_dtree_2_dyn225"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4337.232 304.046 6454.381"
+		Rot="0.000 -0.191 0.000 0.982" />
+
+	<Object
+		Name="desert_dtree_2_dyn226"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4563.355 301.385 6564.335"
+		Rot="0.000 0.375 0.000 0.927" />
+
+	<Object
+		Name="desert_tree_1_dyn227"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4574.765 302.215 6532.456"
+		Rot="0.000 0.999 0.000 0.052" />
+
+	<Object
+		Name="desert_tree_2_dyn228"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4618.988 302.523 6520.271"
+		Rot="0.000 -0.174 0.000 0.985" />
+
+	<Object
+		Name="desert_tree_2_dyn229"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4368.550 305.363 6465.055"
+		Rot="0.000 0.875 0.000 -0.485" />
+
+	<Object
+		Name="desert_tree_2_dyn230"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4115.126 307.796 6432.605"
+		Rot="0.000 -0.783 0.000 0.623" />
+
+	<Object
+		Name="desert_tree_3_dyn231"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4063.614 305.745 6423.516"
+		Rot="0.000 -0.688 0.000 0.725" />
+
+	<Object
+		Name="desert_tree_3_dyn232"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4246.642 306.962 6449.328"
+		Rot="0.000 0.182 0.000 0.983" />
+
+	<Object
+		Name="desert_tree_1_dyn233"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4214.291 306.199 6454.904"
+		Rot="0.000 0.983 0.000 0.182" />
+
+	<Object
+		Name="desert_tree_1_dyn234"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4218.850 302.171 6517.255"
+		Rot="0.000 0.755 0.000 0.656" />
+
+	<Object
+		Name="desert_tree_1_dyn235"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3944.973 306.395 6304.634"
+		Rot="0.000 -0.407 0.000 0.914" />
+
+	<Object
+		Name="desert_tree_1_dyn236"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3991.148 309.998 6268.498"
+		Rot="0.000 -0.105 0.000 0.994" />
+
+	<Object
+		Name="desert_tree_1_dyn237"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="3958.315 307.927 6221.124"
+		Rot="0.000 0.940 0.000 -0.342" />
+
+	<Object
+		Name="desert_tree_2_dyn238"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="3928.679 307.532 6238.444"
+		Rot="0.000 0.934 0.000 -0.358" />
+
+	<Object
+		Name="desert_tree_3_dyn239"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3909.435 305.451 6200.919"
+		Rot="0.000 0.760 0.000 0.649" />
+
+	<Object
+		Name="desert_tree_3_dyn240"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3879.208 305.514 6136.894"
+		Rot="0.000 0.930 0.000 0.367" />
+
+	<Object
+		Name="desert_tree_3_dyn241"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="3866.700 307.200 6102.020"
+		Rot="0.000 0.945 0.000 -0.326" />
+
+	<Object
+		Name="desert_tree_3_dyn242"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4785.850 314.016 3729.922"
+		Rot="0.000 0.951 0.000 -0.309" />
+
+	<Object
+		Name="desert_tree_3_dyn243"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4531.120 315.140 3668.190"
+		Rot="0.000 0.902 0.000 -0.431" />
+
+	<Object
+		Name="desert_tree_3_dyn244"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4566.738 312.511 3472.398"
+		Rot="0.000 0.616 0.000 0.788" />
+
+	<Object
+		Name="desert_tree_3_dyn245"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4604.495 313.545 3452.433"
+		Rot="0.000 0.980 0.000 0.199" />
+
+	<Object
+		Name="desert_tree_3_dyn246"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4581.682 313.266 3237.405"
+		Rot="0.000 0.848 0.000 0.530" />
+
+	<Object
+		Name="desert_tree_1_dyn247"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4799.633 312.850 3686.629"
+		Rot="0.000 0.991 0.000 0.131" />
+
+	<Object
+		Name="desert_tree_1_dyn248"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4788.296 318.028 3489.029"
+		Rot="0.000 0.961 0.000 -0.276" />
+
+	<Object
+		Name="desert_tree_1_dyn249"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4545.110 317.515 3723.672"
+		Rot="0.000 0.326 0.000 0.945" />
+
+	<Object
+		Name="desert_tree_1_dyn250"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4332.133 316.625 3655.277"
+		Rot="0.000 -0.087 0.000 0.996" />
+
+	<Object
+		Name="desert_tree_2_dyn251"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4591.718 313.958 3472.961"
+		Rot="0.000 0.906 0.000 0.423" />
+
+	<Object
+		Name="desert_tree_2_dyn252"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4606.242 315.649 3222.391"
+		Rot="0.000 -0.156 0.000 0.988" />
+
+	<Object
+		Name="desert_tree_2_dyn253"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4526.964 315.695 3698.177"
+		Rot="0.000 -0.602 0.000 0.799" />
+
+	<Object
+		Name="desert_tree_3_dyn254"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4578.905 316.362 3725.803"
+		Rot="0.000 -0.301 0.000 0.954" />
+
+	<Object
+		Name="desert_tree_2_dyn255"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4527.398 314.461 3640.971"
+		Rot="0.000 -0.649 0.000 0.760" />
+
+	<Object
+		Name="desert_tree_2_dyn256"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4246.914 314.937 3544.657" />
+
+	<Object
+		Name="desert_tree_2_dyn257"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4271.741 312.643 3576.784"
+		Rot="0.000 0.989 0.000 0.148" />
+
+	<Object
+		Name="desert_tree_2_dyn258"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4426.114 314.453 3468.903"
+		Rot="0.000 0.415 0.000 0.910" />
+
+	<Object
+		Name="desert_tree_1_dyn259"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4392.921 315.074 3473.626"
+		Rot="0.000 0.096 0.000 0.995" />
+
+	<Object
+		Name="desert_tree_1_dyn260"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4276.179 314.422 3544.335"
+		Rot="0.000 -0.423 0.000 0.906" />
+
+	<Object
+		Name="desert_tree_1_dyn261"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4243.437 313.034 3672.233"
+		Rot="0.000 0.899 0.000 0.438" />
+
+	<Object
+		Name="desert_tree_1_dyn262"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4253.811 314.234 3613.619"
+		Rot="0.000 -0.199 0.000 0.980" />
+
+	<Object
+		Name="desert_tree_1_dyn263"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4081.667 313.881 3669.084"
+		Rot="0.000 0.070 0.000 0.998" />
+
+	<Object
+		Name="desert_tree_1_dyn264"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4154.064 315.778 3761.232"
+		Rot="0.000 0.940 0.000 0.342" />
+
+	<Object
+		Name="desert_tree_3_dyn265"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4121.960 314.939 3790.796"
+		Rot="0.000 -0.515 0.000 0.857" />
+
+	<Object
+		Name="desert_tree_3_dyn266"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4231.069 312.433 3781.736"
+		Rot="0.000 0.743 0.000 0.669" />
+
+	<Object
+		Name="desert_tree_3_dyn267"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4437.388 315.400 3199.161"
+		Rot="0.000 0.552 0.000 0.834" />
+
+	<Object
+		Name="desert_tree_3_dyn268"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4344.452 314.866 3189.285"
+		Rot="0.000 0.044 0.000 0.999" />
+
+	<Object
+		Name="desert_tree_1_dyn269"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4468.034 316.091 3164.398"
+		Rot="0.000 0.530 0.000 0.848" />
+
+	<Object
+		Name="desert_tree_1_dyn270"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4468.592 312.421 3110.083"
+		Rot="0.000 0.276 0.000 0.961" />
+
+	<Object
+		Name="desert_tree_1_dyn271"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4657.710 314.992 3080.820"
+		Rot="0.000 -0.588 0.000 0.809" />
+
+	<Object
+		Name="desert_tree_2_dyn272"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4664.775 313.931 3102.898"
+		Rot="0.000 0.990 0.000 -0.139" />
+
+	<Object
+		Name="desert_tree_3_dyn273"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4634.267 313.612 3118.035"
+		Rot="0.000 0.602 0.000 0.799" />
+
+	<Object
+		Name="desert_tree_3_dyn274"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4647.810 314.040 3207.509"
+		Rot="0.000 0.895 0.000 0.446" />
+
+	<Object
+		Name="desert_tree_3_dyn275"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4772.473 310.951 3189.719"
+		Rot="0.000 -0.707 0.000 0.707" />
+
+	<Object
+		Name="desert_tree_3_dyn276"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4737.071 311.449 3230.714"
+		Rot="0.000 0.087 0.000 0.996" />
+
+	<Object
+		Name="desert_tree_3_dyn277"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4793.356 307.615 3038.671"
+		Rot="0.000 0.937 0.000 -0.350" />
+
+	<Object
+		Name="desert_tree_3_dyn278"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4678.381 311.004 3378.764"
+		Rot="0.000 0.934 0.000 0.358" />
+
+	<Object
+		Name="desert_tree_3_dyn279"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4708.932 313.668 3416.409"
+		Rot="0.000 0.895 0.000 0.446" />
+
+	<Object
+		Name="desert_tree_2_dyn280"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4718.292 312.478 3380.193"
+		Rot="0.000 -0.793 0.000 0.609" />
+
+	<Object
+		Name="desert_tree_1_dyn281"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4724.350 310.924 3348.116"
+		Rot="0.000 0.113 0.000 0.994" />
+
+	<Object
+		Name="desert_tree_1_dyn282"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4554.226 314.677 3369.608"
+		Rot="0.000 0.954 0.000 -0.301" />
+
+	<Object
+		Name="desert_tree_1_dyn283"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4717.517 314.198 3608.876"
+		Rot="0.000 -0.383 0.000 0.924" />
+
+	<Object
+		Name="desert_tree_1_dyn284"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4717.673 313.528 3665.878"
+		Rot="0.000 0.035 0.000 0.999" />
+
+	<Object
+		Name="desert_tree_1_dyn285"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4778.343 312.859 3572.387"
+		Rot="0.000 0.879 0.000 -0.477" />
+
+	<Object
+		Name="desert_tree_2_dyn286"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="4739.552 312.280 3629.562"
+		Rot="0.000 0.995 0.000 -0.096" />
+
+	<Object
+		Name="desert_tree_3_dyn287"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4895.562 311.570 3518.005"
+		Rot="0.000 -0.760 0.000 0.649" />
+
+	<Object
+		Name="desert_tree_3_dyn288"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4880.405 314.476 3559.366"
+		Rot="0.000 0.070 0.000 0.998" />
+
+	<Object
+		Name="desert_tree_1_dyn289"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4911.820 314.702 3543.043"
+		Rot="0.000 -0.035 0.000 0.999" />
+
+	<Object
+		Name="desert_tree_1_dyn290"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4953.125 313.896 3655.021"
+		Rot="0.000 0.940 0.000 -0.342" />
+
+	<Object
+		Name="desert_tree_1_dyn291"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4903.675 316.160 3742.916"
+		Rot="0.000 0.993 0.000 0.122" />
+
+	<Object
+		Name="desert_tree_1_dyn292"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4573.298 314.377 3870.262"
+		Rot="0.000 0.595 0.000 0.804" />
+
+	<Object
+		Name="desert_tree_1_dyn293"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4705.374 314.200 3859.839"
+		Rot="0.000 0.985 0.000 0.174" />
+
+	<Object
+		Name="desert_tree_1_dyn294"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4468.940 313.288 4002.129"
+		Rot="0.000 0.267 0.000 0.964" />
+
+	<Object
+		Name="desert_tree_1_dyn295"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="4793.771 315.110 3896.460"
+		Rot="0.000 0.970 0.000 0.242" />
+
+	<Object
+		Name="desert_dtree_1_dyn296"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4764.874 314.039 3952.273"
+		Rot="0.000 0.879 0.000 -0.477" />
+
+	<Object
+		Name="desert_dtree_1_dyn297"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4759.529 311.803 3745.679"
+		Rot="0.000 0.999 0.000 0.044" />
+
+	<Object
+		Name="desert_dtree_1_dyn298"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4587.288 313.011 3955.534"
+		Rot="0.000 0.982 0.000 0.191" />
+
+	<Object
+		Name="desert_dtree_1_dyn299"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4496.638 313.987 4001.917"
+		Rot="0.000 -0.225 0.000 0.974" />
+
+	<Object
+		Name="desert_dtree_1_dyn300"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4480.131 315.408 4041.872"
+		Rot="0.000 -0.574 0.000 0.819" />
+
+	<Object
+		Name="desert_dtree_1_dyn301"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4431.575 313.358 3744.177"
+		Rot="0.000 0.760 0.000 0.649" />
+
+	<Object
+		Name="desert_dtree_1_dyn302"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4241.776 309.300 3823.449"
+		Rot="0.000 0.961 0.000 0.276" />
+
+	<Object
+		Name="desert_dtree_1_dyn303"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4028.208 314.677 3795.651"
+		Rot="0.000 0.875 0.000 0.485" />
+
+	<Object
+		Name="desert_dtree_1_dyn304"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3928.305 315.343 3608.589"
+		Rot="0.000 -0.044 0.000 0.999" />
+
+	<Object
+		Name="desert_dtree_1_dyn305"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3958.169 314.334 3691.185"
+		Rot="0.000 0.515 0.000 0.857" />
+
+	<Object
+		Name="desert_dtree_1_dyn306"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4123.998 317.909 3579.557"
+		Rot="0.000 0.999 0.000 -0.044" />
+
+	<Object
+		Name="desert_dtree_1_dyn307"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4225.652 315.013 3472.730"
+		Rot="0.000 0.819 0.000 0.574" />
+
+	<Object
+		Name="desert_dtree_1_dyn308"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4227.481 316.235 3430.046"
+		Rot="0.000 0.990 0.000 0.139" />
+
+	<Object
+		Name="desert_dtree_1_dyn309"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4411.918 313.387 3190.881"
+		Rot="0.000 0.199 0.000 0.980" />
+
+	<Object
+		Name="desert_dtree_1_dyn310"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4203.217 314.702 3448.851"
+		Rot="0.000 0.964 0.000 -0.267" />
+
+	<Object
+		Name="desert_dtree_1_dyn311"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4123.320 315.536 3214.802"
+		Rot="0.000 0.276 0.000 0.961" />
+
+	<Object
+		Name="desert_dtree_1_dyn312"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3900.104 316.205 3140.065"
+		Rot="0.000 0.970 0.000 -0.242" />
+
+	<Object
+		Name="desert_dtree_1_dyn313"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4500.472 313.144 3109.468"
+		Rot="0.000 0.492 0.000 0.870" />
+
+	<Object
+		Name="desert_dtree_1_dyn314"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4635.458 312.968 3084.154"
+		Rot="0.000 0.989 0.000 -0.148" />
+
+	<Object
+		Name="desert_dtree_1_dyn315"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4746.549 312.516 3204.968"
+		Rot="0.000 -0.530 0.000 0.848" />
+
+	<Object
+		Name="desert_dtree_1_dyn316"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4794.194 306.450 3010.514"
+		Rot="0.000 0.927 0.000 -0.375" />
+
+	<Object
+		Name="desert_dtree_1_dyn317"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4662.398 309.609 2915.562"
+		Rot="0.000 -0.070 0.000 0.998" />
+
+	<Object
+		Name="desert_dtree_1_dyn318"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4852.407 312.951 3300.587"
+		Rot="0.000 0.399 0.000 0.917" />
+
+	<Object
+		Name="desert_dtree_1_dyn319"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4937.552 309.331 3466.159"
+		Rot="0.000 -0.676 0.000 0.737" />
+
+	<Object
+		Name="desert_dtree_1_dyn320"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4956.376 315.021 3702.349"
+		Rot="0.000 -0.078 0.000 0.997" />
+
+	<Object
+		Name="desert_dtree_1_dyn321"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4782.952 309.567 3663.841"
+		Rot="0.000 0.772 0.000 0.636" />
+
+	<Object
+		Name="desert_dtree_2_dyn322"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4813.869 314.686 3718.230"
+		Rot="0.000 0.515 0.000 0.857" />
+
+	<Object
+		Name="desert_dtree_2_dyn323"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4551.201 312.859 3861.469"
+		Rot="0.000 -0.760 0.000 0.649" />
+
+	<Object
+		Name="desert_dtree_2_dyn324"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4596.758 315.463 3713.900"
+		Rot="0.000 -0.105 0.000 0.994" />
+
+	<Object
+		Name="desert_dtree_2_dyn325"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4379.347 313.365 3588.036"
+		Rot="0.000 0.934 0.000 -0.358" />
+
+	<Object
+		Name="desert_dtree_2_dyn326"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4453.603 313.756 3554.625"
+		Rot="0.000 -0.760 0.000 0.649" />
+
+	<Object
+		Name="desert_dtree_2_dyn327"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4365.189 316.297 3694.193"
+		Rot="0.000 0.026 0.000 1.000" />
+
+	<Object
+		Name="desert_dtree_2_dyn328"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4282.967 313.145 3714.689"
+		Rot="0.000 0.999 0.000 -0.035" />
+
+	<Object
+		Name="desert_dtree_2_dyn329"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4278.695 313.023 3601.815"
+		Rot="0.000 0.267 0.000 0.964" />
+
+	<Object
+		Name="desert_dtree_2_dyn330"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4371.889 312.575 3378.155"
+		Rot="0.000 0.998 0.000 -0.070" />
+
+	<Object
+		Name="desert_dtree_2_dyn331"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4249.377 312.696 3328.897"
+		Rot="0.000 0.870 0.000 -0.492" />
+
+	<Object
+		Name="desert_tree_3_dyn332"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="4462.928 312.539 3501.877"
+		Rot="0.000 0.972 0.000 0.233" />
+
+	<Object
+		Name="desert_dtree_2_dyn333"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4446.524 317.050 3437.488"
+		Rot="0.000 0.999 0.000 0.044" />
+
+	<Object
+		Name="desert_dtree_2_dyn334"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4462.377 316.065 3389.368"
+		Rot="0.000 -0.862 0.000 0.508" />
+
+	<Object
+		Name="desert_dtree_1_dyn335"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4477.348 315.609 3401.638"
+		Rot="0.000 0.948 0.000 0.317" />
+
+	<Object
+		Name="desert_dtree_1_dyn336"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4663.743 312.235 3507.682"
+		Rot="0.000 -0.485 0.000 0.875" />
+
+	<Object
+		Name="desert_dtree_1_dyn337"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4773.514 316.297 3515.637"
+		Rot="0.000 -0.350 0.000 0.937" />
+
+	<Object
+		Name="desert_dtree_1_dyn338"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5062.072 307.573 3842.576"
+		Rot="0.000 -0.848 0.000 0.530" />
+
+	<Object
+		Name="desert_dtree_1_dyn339"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5339.759 311.878 3935.465"
+		Rot="0.000 0.824 0.000 0.566" />
+
+	<Object
+		Name="desert_dtree_2_dyn340"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5460.101 305.943 3962.397"
+		Rot="0.000 0.879 0.000 0.477" />
+
+	<Object
+		Name="desert_dtree_2_dyn341"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5533.283 303.926 4063.918"
+		Rot="0.000 -0.259 0.000 0.966" />
+
+	<Object
+		Name="desert_dtree_2_dyn342"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5593.314 302.918 4305.004"
+		Rot="0.000 0.695 0.000 0.719" />
+
+	<Object
+		Name="desert_dtree_2_dyn343"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5674.107 307.149 4550.662"
+		Rot="0.000 0.993 0.000 0.122" />
+
+	<Object
+		Name="desert_dtree_2_dyn344"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5828.007 310.647 4810.251"
+		Rot="0.000 0.994 0.000 0.113" />
+
+	<Object
+		Name="desert_dtree_1_dyn345"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5848.881 310.204 4817.277"
+		Rot="0.000 0.824 0.000 0.566" />
+
+	<Object
+		Name="desert_dtree_1_dyn346"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5883.950 311.238 5082.775"
+		Rot="0.000 0.052 0.000 0.999" />
+
+	<Object
+		Name="desert_dtree_1_dyn347"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5941.846 312.422 5211.704"
+		Rot="0.000 0.824 0.000 0.566" />
+
+	<Object
+		Name="desert_dtree_1_dyn348"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="6039.383 309.914 5454.980"
+		Rot="0.000 0.766 0.000 0.643" />
+
+	<Object
+		Name="desert_dtree_1_dyn349"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="6050.793 302.005 5154.490"
+		Rot="0.000 0.676 0.000 0.737" />
+
+	<Object
+		Name="desert_dtree_1_dyn350"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5804.609 300.400 4567.523"
+		Rot="0.000 -0.044 0.000 0.999" />
+
+	<Object
+		Name="desert_dtree_1_dyn351"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5578.481 303.047 4347.835"
+		Rot="0.000 -0.777 0.000 0.629" />
+
+	<Object
+		Name="desert_dtree_1_dyn352"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5388.463 308.063 3962.164"
+		Rot="0.000 0.334 0.000 0.943" />
+
+	<Object
+		Name="desert_tree_3_dyn353"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="5359.248 313.310 3929.389"
+		Rot="0.000 0.951 0.000 0.309" />
+
+	<Object
+		Name="desert_tree_1_dyn354"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="5090.984 306.653 3855.928"
+		Rot="0.000 0.945 0.000 0.326" />
+
+	<Object
+		Name="desert_tree_1_dyn355"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="5486.788 305.226 3976.432"
+		Rot="0.000 -0.629 0.000 0.777" />
+
+	<Object
+		Name="desert_tree_1_dyn356"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="5556.207 304.505 4152.231"
+		Rot="0.000 -0.267 0.000 0.964" />
+
+	<Object
+		Name="desert_tree_1_dyn357"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="5581.548 302.908 4315.741"
+		Rot="0.000 0.986 0.000 0.165" />
+
+	<Object
+		Name="desert_tree_2_dyn358"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="5600.027 303.227 4353.621"
+		Rot="0.000 -0.250 0.000 0.968" />
+
+	<Object
+		Name="desert_tree_2_dyn359"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="5619.640 306.934 4481.639"
+		Rot="0.000 0.895 0.000 0.446" />
+
+	<Object
+		Name="desert_tree_1_dyn360"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="5699.567 305.393 4557.026"
+		Rot="0.000 -0.431 0.000 0.902" />
+
+	<Object
+		Name="desert_tree_3_dyn361"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="5838.556 309.571 4789.802"
+		Rot="0.000 -0.857 0.000 0.515" />
+
+	<Object
+		Name="desert_tree_1_dyn362"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="5860.764 309.162 4833.658"
+		Rot="0.000 0.609 0.000 0.793" />
+
+	<Object
+		Name="desert_tree_1_dyn363"
+		Belong="1001"
+		Prototype="desert_tree_1_dyn"
+		Pos="5906.841 311.885 5072.202"
+		Rot="0.000 0.199 0.000 0.980" />
+
+	<Object
+		Name="desert_tree_2_dyn364"
+		Belong="1001"
+		Prototype="desert_tree_2_dyn"
+		Pos="5880.583 309.973 5052.319"
+		Rot="0.000 -0.853 0.000 0.522" />
+
+	<Object
+		Name="desert_tree_3_dyn365"
+		Belong="1001"
+		Prototype="desert_tree_3_dyn"
+		Pos="6046.781 306.364 5136.063"
+		Rot="0.000 0.595 0.000 0.804" />
+
+	<Object
+		Name="desert_dtree_1_dyn367"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="6025.667 310.355 5438.944"
+		Rot="0.000 0.469 0.000 0.883" />
+
+	<Object
+		Name="desert_dtree_1_dyn368"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="6075.056 305.760 5910.564"
+		Rot="0.000 0.961 0.000 0.276" />
+
+	<Object
+		Name="desert_dtree_1_dyn369"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="6039.581 306.901 5982.702"
+		Rot="0.000 0.105 0.000 0.994" />
+
+	<Object
+		Name="desert_dtree_2_dyn370"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="6045.848 304.459 6017.910"
+		Rot="0.000 0.934 0.000 0.358" />
+
+	<Object
+		Name="desert_dtree_2_dyn371"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5894.048 304.719 6266.459"
+		Rot="0.000 -0.574 0.000 0.819" />
+
+	<Object
+		Name="desert_dtree_1_dyn372"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5844.510 303.736 6325.429"
+		Rot="0.000 0.737 0.000 0.676" />
+
+	<Object
+		Name="desert_dtree_1_dyn373"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5659.413 301.458 6448.106"
+		Rot="0.000 0.522 0.000 0.853" />
+
+	<Object
+		Name="desert_dtree_1_dyn374"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5335.513 299.581 6450.662"
+		Rot="0.000 0.399 0.000 0.917" />
+
+	<Object
+		Name="desert_dtree_2_dyn375"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5277.913 300.218 6463.282"
+		Rot="0.000 -0.317 0.000 0.948" />
+
+	<Object
+		Name="desert_dtree_2_dyn376"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4974.648 298.860 6396.913"
+		Rot="0.000 -0.317 0.000 0.948" />
+
+	<Object
+		Name="desert_dtree_2_dyn377"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4689.527 301.539 6509.781"
+		Rot="0.000 -0.777 0.000 0.629" />
+
+	<Object
+		Name="desert_dtree_2_dyn378"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4428.350 301.058 6546.055"
+		Rot="0.000 0.500 0.000 0.866" />
+
+	<Object
+		Name="desert_dtree_2_dyn379"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4495.572 303.112 6498.958"
+		Rot="0.000 0.966 0.000 -0.259" />
+
+	<Object
+		Name="desert_dtree_2_dyn380"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3861.083 305.690 6166.213"
+		Rot="0.000 0.191 0.000 0.982" />
+
+	<Object
+		Name="desert_dtree_2_dyn381"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3920.060 303.114 6310.213"
+		Rot="0.000 -0.649 0.000 0.760" />
+
+	<Object
+		Name="desert_dtree_2_dyn382"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3943.636 300.671 6357.281"
+		Rot="0.000 -0.367 0.000 0.930" />
+
+	<Object
+		Name="desert_dtree_2_dyn383"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3806.352 306.540 6097.547" />
+
+	<Object
+		Name="desert_dtree_2_dyn384"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3582.760 309.780 5842.829"
+		Rot="0.000 -0.485 0.000 0.875" />
+
+	<Object
+		Name="desert_dtree_2_dyn385"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3325.206 308.178 5910.409"
+		Rot="0.000 -0.819 0.000 0.574" />
+
+	<Object
+		Name="desert_dtree_2_dyn386"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3165.742 302.883 5862.053"
+		Rot="0.000 -0.559 0.000 0.829" />
+
+	<Object
+		Name="desert_dtree_1_dyn387"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3188.607 303.740 5950.927"
+		Rot="0.000 -0.616 0.000 0.788" />
+
+	<Object
+		Name="desert_dtree_1_dyn388"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3312.505 314.192 5995.540"
+		Rot="0.000 0.993 0.000 0.122" />
+
+	<Object
+		Name="desert_dtree_1_dyn389"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3115.269 306.429 5771.105"
+		Rot="0.000 0.934 0.000 0.358" />
+
+	<Object
+		Name="desert_dtree_1_dyn390"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="2943.826 304.658 5733.261"
+		Rot="0.000 0.462 0.000 0.887" />
+
+	<Object
+		Name="desert_dtree_1_dyn391"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="2936.980 301.402 5911.239"
+		Rot="0.000 0.875 0.000 -0.485" />
+
+	<Object
+		Name="desert_dtree_1_dyn392"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3001.377 301.194 5916.303"
+		Rot="0.000 -0.383 0.000 0.924" />
+
+	<Object
+		Name="desert_dtree_2_dyn393"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="2828.110 299.931 5684.203"
+		Rot="0.000 0.972 0.000 -0.233" />
+
+	<Object
+		Name="desert_dtree_2_dyn394"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="2931.267 303.158 5641.935"
+		Rot="0.000 0.545 0.000 0.839" />
+
+	<Object
+		Name="desert_dtree_2_dyn395"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="2727.499 306.538 5871.003"
+		Rot="0.000 -0.485 0.000 0.875" />
+
+	<Object
+		Name="desert_dtree_2_dyn396"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="2584.210 303.379 5952.185"
+		Rot="0.000 0.061 0.000 0.998" />
+
+	<Object
+		Name="desert_dtree_1_dyn397"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="2606.108 303.864 5998.701"
+		Rot="0.000 -0.848 0.000 0.530" />
+
+	<Object
+		Name="desert_dtree_1_dyn398"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3012.173 303.941 6563.970"
+		Rot="0.000 0.954 0.000 -0.301" />
+
+	<Object
+		Name="desert_dtree_1_dyn399"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3180.164 305.043 6544.817"
+		Rot="0.000 0.819 0.000 0.574" />
+
+	<Object
+		Name="desert_dtree_1_dyn400"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3377.015 303.379 6502.845"
+		Rot="0.000 0.819 0.000 0.574" />
+
+	<Object
+		Name="desert_dtree_1_dyn401"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3298.670 300.206 6305.767"
+		Rot="0.000 -0.755 0.000 0.656" />
+
+	<Object
+		Name="desert_dtree_1_dyn402"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4054.354 306.055 6382.043"
+		Rot="0.000 0.609 0.000 0.793" />
+
+	<Object
+		Name="desert_dtree_1_dyn403"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4255.174 303.882 6512.548"
+		Rot="0.000 -0.301 0.000 0.954" />
+
+	<Object
+		Name="desert_dtree_1_dyn404"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4435.885 304.814 6643.389"
+		Rot="0.000 0.994 0.000 -0.105" />
+
+	<Object
+		Name="desert_dtree_1_dyn405"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4583.349 303.585 6497.948"
+		Rot="0.000 0.910 0.000 -0.415" />
+
+	<Object
+		Name="desert_dtree_1_dyn406"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4935.457 300.491 6495.158"
+		Rot="0.000 0.998 0.000 -0.061" />
+
+	<Object
+		Name="desert_dtree_1_dyn407"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="6101.249 307.091 5722.172"
+		Rot="0.000 0.920 0.000 0.391" />
+
+	<Object
+		Name="desert_dtree_1_dyn408"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3723.101 308.566 2669.493"
+		Rot="0.000 0.934 0.000 -0.358" />
+
+	<Object
+		Name="desert_dtree_1_dyn409"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="3543.897 301.303 2746.103"
+		Rot="0.000 -0.438 0.000 0.899" />
+
+	<Object
+		Name="desert_dtree_2_dyn410"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="3788.829 314.764 2674.003"
+		Rot="0.000 0.515 0.000 0.857" />
+
+	<Object
+		Name="desert_dtree_2_dyn411"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4339.751 312.993 3073.476"
+		Rot="0.000 -0.342 0.000 0.940" />
+
+	<Object
+		Name="desert_dtree_2_dyn412"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4441.422 311.898 3037.128"
+		Rot="0.000 -0.477 0.000 0.879" />
+
+	<Object
+		Name="desert_dtree_2_dyn413"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4642.921 300.567 2566.841"
+		Rot="0.000 -0.719 0.000 0.695" />
+
+	<Object
+		Name="desert_dtree_2_dyn414"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="4885.038 301.498 3058.879"
+		Rot="0.000 0.182 0.000 0.983" />
+
+	<Object
+		Name="desert_dtree_2_dyn415"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5280.759 296.355 3632.659"
+		Rot="0.000 0.870 0.000 -0.492" />
+
+	<Object
+		Name="desert_dtree_1_dyn416"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5290.419 303.655 3567.677"
+		Rot="0.000 -0.367 0.000 0.930" />
+
+	<Object
+		Name="desert_dtree_1_dyn417"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5256.557 296.027 3648.605"
+		Rot="0.000 -0.225 0.000 0.974" />
+
+	<Object
+		Name="desert_dtree_1_dyn418"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5517.343 302.213 3885.950"
+		Rot="0.000 -0.139 0.000 0.990" />
+
+	<Object
+		Name="desert_dtree_1_dyn419"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5588.778 304.916 4070.780"
+		Rot="0.000 -0.383 0.000 0.924" />
+
+	<Object
+		Name="desert_dtree_1_dyn420"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5908.531 312.461 5161.382"
+		Rot="0.000 -0.616 0.000 0.788" />
+
+	<Object
+		Name="desert_dtree_1_dyn421"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4383.430 313.664 4290.677"
+		Rot="0.000 0.927 0.000 -0.375" />
+
+	<Object
+		Name="desert_dtree_1_dyn422"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5609.441 309.651 5663.346"
+		Rot="0.000 0.061 0.000 0.998" />
+
+	<Object
+		Name="desert_dtree_1_dyn423"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5276.680 308.678 5947.066"
+		Rot="0.000 0.350 0.000 0.937" />
+
+	<Object
+		Name="desert_dtree_1_dyn424"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4806.886 311.773 5873.978"
+		Rot="0.000 -0.636 0.000 0.772" />
+
+	<Object
+		Name="desert_dtree_1_dyn425"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4610.516 306.662 6231.526"
+		Rot="0.000 -0.096 0.000 0.995" />
+
+	<Object
+		Name="desert_dtree_1_dyn426"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4679.362 305.399 6232.011"
+		Rot="0.000 0.688 0.000 0.725" />
+
+	<Object
+		Name="desert_dtree_1_dyn427"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4807.690 302.541 6323.522"
+		Rot="0.000 0.165 0.000 0.986" />
+
+	<Object
+		Name="desert_dtree_2_dyn428"
+		Belong="1001"
+		Prototype="desert_dtree_2_dyn"
+		Pos="5131.698 314.439 5625.843"
+		Rot="0.000 -0.829 0.000 0.559" />
+
+	<Object
+		Name="desert_dtree_1_dyn429"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5092.460 317.892 5542.458"
+		Rot="0.000 0.749 0.000 0.663" />
+
+	<Object
+		Name="desert_dtree_1_dyn430"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="4946.454 314.502 5728.428"
+		Rot="0.000 -0.326 0.000 0.945" />
+
+	<Object
+		Name="desert_dtree_1_dyn431"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5162.680 307.261 6006.093"
+		Rot="0.000 0.477 0.000 0.879" />
+
+	<Object
+		Name="desert_dtree_1_dyn432"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5015.053 303.974 6081.303"
+		Rot="0.000 0.676 0.000 0.737" />
+
+	<Object
+		Name="desert_dtree_1_dyn433"
+		Belong="1001"
+		Prototype="desert_dtree_1_dyn"
+		Pos="5380.863 307.881 6054.744"
+		Rot="0.000 0.927 0.000 0.375" />
+
+	<Object
+		Name="traffic_lights1435"
+		Belong="1001"
+		Prototype="traffic_lights1"
+		Pos="4647.859 319.773 5361.227" />
+
+	<Object
+		Name="traffic_lights1436"
+		Belong="1001"
+		Prototype="traffic_lights1"
+		Pos="4605.268 319.716 5324.193"
+		Rot="0.000 -0.724 0.000 0.690" />
+
+	<Object
+		Name="traffic_lights2437"
+		Belong="1001"
+		Prototype="traffic_lights2"
+		Pos="4629.609 319.954 5324.206" />
+
+	<Object
+		Name="road_sign4439"
+		Belong="1001"
+		Prototype="road_sign4"
+		Pos="4660.955 319.952 5322.631" />
+
+	<Object
+		Name="road_sign3440"
+		Belong="1001"
+		Prototype="road_sign3"
+		Pos="4578.967 318.909 5329.008"
+		Rot="0.000 -0.658 0.000 0.753" />
+
+	<Object
+		Name="FuelLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4643.249 320.000 5277.320"
+		Radius="5.000" />
+
+	<Object
+		Name="HealLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4679.995 319.859 5358.881"
+		Radius="4.000" />
+
+	<Object
+		Name="XLoc1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5733.354 304.300 6209.840"
+		Radius="350.000" />
+
+	<Object
+		Name="XLoc2"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5148.508 301.221 6304.262"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc3"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4561.651 305.075 6405.631"
+		Radius="350.000" />
+
+	<Object
+		Name="XLoc4"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4407.932 313.592 5844.625"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc5"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3845.294 306.462 6319.680"
+		Radius="350.000" />
+
+	<Object
+		Name="XLoc6"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3053.612 303.726 6066.896"
+		Radius="450.000" />
+
+	<Object
+		Name="XLoc7"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3238.217 312.031 5122.672"
+		Radius="350.000" />
+
+	<Object
+		Name="XLoc8"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3673.243 317.601 4658.167"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc9"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3962.089 313.554 4160.191"
+		Radius="270.000" />
+
+	<Object
+		Name="XLoc10"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4019.733 314.137 3455.986"
+		Radius="450.000" />
+
+	<Object
+		Name="XLoc11"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4900.533 301.236 3170.351"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc12"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5192.175 301.795 3574.852"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc13"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5666.420 302.311 4404.688"
+		Radius="350.000" />
+
+	<Object
+		Name="XLoc14"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5842.187 310.380 4995.625"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc15"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5948.669 312.982 5400.321"
+		Radius="200.000" />
+
+	<Object
+		Name="YLoc1"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="2594.315 303.267 5973.222"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc2"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="2710.588 304.661 5853.980"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc3"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3337.046 306.192 6517.487"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc4"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3302.053 294.437 6448.041"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc5"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3401.434 296.803 6369.291"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc6"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3550.033 297.744 6463.275"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc7"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3895.276 297.452 6570.739"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc8"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4371.749 297.214 6728.152"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc9"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4301.373 300.305 6754.322"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc10"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4187.188 309.523 6656.184"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc11"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4629.082 303.990 6621.238"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc12"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4782.513 299.995 6647.878"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc13"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4733.607 301.017 6700.245"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc14"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4587.194 302.749 6684.209"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc15"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4483.516 307.572 6680.995"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc16"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5005.422 301.088 6482.404"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc17"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5130.506 298.914 6448.228"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc18"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5236.255 300.479 6467.792"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc19"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5563.505 301.467 6478.366"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc20"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5881.217 301.983 6309.074"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc21"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="6223.943 297.493 5895.894"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc22"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5999.023 309.549 5170.349"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc23"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5997.083 311.426 5072.506"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc24"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5802.455 308.921 4429.082"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc25"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5389.560 303.038 3611.188"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc26"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5349.632 303.533 3524.460"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc27"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5123.853 305.546 3506.798"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc28"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5054.256 293.669 3540.130"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc29"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5313.525 301.917 3379.574"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc30"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5224.924 303.843 3341.327"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc31"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5175.420 303.197 3335.671"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc32"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5225.294 299.031 3110.902"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc33"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5110.643 300.745 3228.517"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc34"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="5034.221 304.287 3145.939"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc35"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4953.014 302.543 3177.947"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc36"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4855.634 302.788 2993.843"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc37"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4658.089 300.100 2783.727"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc38"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4716.812 299.428 2821.974"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc39"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4704.215 299.704 2593.624"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc40"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4649.279 299.955 2538.137"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc41"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4580.722 311.745 3010.518"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc42"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4395.213 313.211 3005.177"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc43"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="4076.718 308.792 2841.235"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc44"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3904.531 311.005 2695.069"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc45"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3836.853 315.020 2699.265"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc46"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3770.717 312.490 2640.995"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc47"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3549.987 300.673 2764.074"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc48"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3788.178 316.313 3136.944"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc49"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3940.733 315.228 3160.312"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc50"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3783.169 302.156 3374.850"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc51"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3799.823 300.697 3613.591"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc52"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3808.570 302.890 3506.571"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc53"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3825.871 307.780 3901.927"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc54"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3482.765 312.594 4591.701"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc55"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3540.882 305.985 4609.564"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc56"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3360.544 299.244 4686.927"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc57"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="2913.558 311.627 4667.637"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc58"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="2981.951 313.948 4611.599"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc59"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="2936.022 313.481 4623.371"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc60"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="3015.582 303.737 4990.243"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc61"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="2774.952 315.674 5268.030"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc62"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="2815.042 301.988 5526.648"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc63"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="2633.745 302.125 5672.853"
+		Radius="10.000" />
+
+	<Object
+		Name="YLoc64"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="2442.443 300.362 5909.181"
+		Radius="10.000" />
+
+	<Object
+		Name="SellLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4659.651 319.619 5373.656"
+		Radius="2.000" />
+
+	<Object
+		Name="XLoc17"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4462.713 314.651 3144.456"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc18"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4407.835 312.593 4048.913"
+		Radius="220.000" />
+
+	<Object
+		Name="XLoc19"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5453.833 305.338 3933.810"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc20"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5962.351 307.898 5775.064"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc21"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4626.287 308.573 4446.744"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc22"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4182.787 315.684 4615.479"
+		Radius="220.000" />
+
+	<Object
+		Name="XLoc23"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4018.984 315.929 5064.039"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc24"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4618.589 314.648 4874.227"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc25"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4070.219 314.126 5554.125"
+		Radius="225.000" />
+
+	<Object
+		Name="XLoc26"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3694.285 314.007 5403.625"
+		Radius="200.000" />
+
+	<Object
+		Name="XLoc27"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4931.050 313.511 5798.843"
+		Radius="260.000" />
+
+	<Object
+		Name="XLoc28"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5118.887 316.827 5014.928"
+		Radius="250.000" />
+
+	<Object
+		Name="XLoc29"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5496.481 308.811 4770.223"
+		Radius="200.000" />
+
+	<Object
+		Name="XLoc30"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5540.424 311.597 5215.987"
+		Radius="210.000" />
+
+	<Object
+		Name="XLoc31"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5315.744 310.304 5931.405"
+		Radius="150.000" />
+
+	<Object
+		Name="XLoc32"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5008.192 320.000 5404.139"
+		Radius="150.000" />
+
+	<Object
+		Name="InfectionZone1"
+		Belong="1071"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="SectTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="SectTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="2662.801"
+				y="6562.398" />
+
+			<Point
+				x="2333.940"
+				y="5954.147" />
+
+			<Point
+				x="2528.955"
+				y="5575.286" />
+
+			<Point
+				x="3615.320"
+				y="5864.526" />
+
+			<Point
+				x="3498.805"
+				y="6543.866" />
+
+			<Point
+				x="3043.772"
+				y="6667.083" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="3133.480"
+				y="6497.507" />
+
+			<Point
+				x="3261.003"
+				y="6308.468" />
+
+			<Point
+				x="3505.681"
+				y="6116.426" />
+
+			<Point
+				x="3426.584"
+				y="5878.668" />
+
+			<Point
+				x="3008.298"
+				y="5815.670" />
+
+			<Point
+				x="3198.879"
+				y="6071.542" />
+
+			<Point
+				x="2787.726"
+				y="5690.352" />
+
+			<Point
+				x="3008.528"
+				y="6117.423" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone2"
+		Belong="1071"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="SectTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="SectTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="3567.066"
+				y="6676.775" />
+
+			<Point
+				x="4446.840"
+				y="6883.000" />
+
+			<Point
+				x="4588.728"
+				y="6092.297" />
+
+			<Point
+				x="3633.989"
+				y="5869.975" />
+
+			<Point
+				x="3529.143"
+				y="6558.442" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="3684.809"
+				y="6419.155" />
+
+			<Point
+				x="4311.824"
+				y="6526.765" />
+
+			<Point
+				x="4390.928"
+				y="6330.896" />
+
+			<Point
+				x="4100.188"
+				y="6344.149" />
+
+			<Point
+				x="3923.381"
+				y="6101.761" />
+
+			<Point
+				x="4269.903"
+				y="6161.042" />
+
+			<Point
+				x="4070.796"
+				y="6559.263" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone3"
+		Belong="1071"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="SectTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="SectTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="5644.243"
+				y="6614.810" />
+
+			<Point
+				x="5394.628"
+				y="5939.007" />
+
+			<Point
+				x="5274.650"
+				y="5344.531" />
+
+			<Point
+				x="4601.173"
+				y="6091.030" />
+
+			<Point
+				x="4478.305"
+				y="6868.643" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="4775.383"
+				y="6381.071" />
+
+			<Point
+				x="4930.463"
+				y="6404.208" />
+
+			<Point
+				x="4613.578"
+				y="6445.656" />
+
+			<Point
+				x="5021.314"
+				y="6270.473" />
+
+			<Point
+				x="5264.117"
+				y="6257.417" />
+
+			<Point
+				x="5387.088"
+				y="6320.560" />
+
+			<Point
+				x="5340.284"
+				y="6054.216" />
+
+			<Point
+				x="4788.492"
+				y="6138.037" />
+
+			<Point
+				x="5081.074"
+				y="6076.602" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone4"
+		Belong="1071"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="SectTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="SectTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="6355.828"
+				y="6433.195" />
+
+			<Point
+				x="6181.852"
+				y="4950.792" />
+
+			<Point
+				x="5293.580"
+				y="5328.502" />
+
+			<Point
+				x="5412.945"
+				y="5937.546" />
+
+			<Point
+				x="5678.964"
+				y="6594.139" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="5669.160"
+				y="6288.762" />
+
+			<Point
+				x="5750.401"
+				y="5965.641" />
+
+			<Point
+				x="5887.204"
+				y="5721.521" />
+
+			<Point
+				x="5847.411"
+				y="5352.317" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone5"
+		Belong="1071"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="SectTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="SectTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="5744.291"
+				y="3934.546" />
+
+			<Point
+				x="5217.984"
+				y="4257.360" />
+
+			<Point
+				x="5319.976"
+				y="4655.848" />
+
+			<Point
+				x="5040.187"
+				y="4822.682" />
+
+			<Point
+				x="5168.588"
+				y="5065.780" />
+
+			<Point
+				x="5285.773"
+				y="5311.383" />
+
+			<Point
+				x="6168.370"
+				y="4916.135" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="5522.430"
+				y="4360.246" />
+
+			<Point
+				x="5627.500"
+				y="4562.171" />
+
+			<Point
+				x="5829.982"
+				y="4851.604" />
+
+			<Point
+				x="5571.959"
+				y="4975.718" />
+
+			<Point
+				x="5366.491"
+				y="4650.430" />
+
+			<Point
+				x="5643.563"
+				y="4741.867" />
+
+			<Point
+				x="5357.729"
+				y="5001.681" />
+
+			<Point
+				x="5360.360"
+				y="5137.870" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone6"
+		Belong="1071"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="SectTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="SectTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="5017.146"
+				y="2509.818" />
+
+			<Point
+				x="4215.628"
+				y="2417.124" />
+
+			<Point
+				x="4871.247"
+				y="4403.408" />
+
+			<Point
+				x="5719.457"
+				y="3898.146" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="5080.880"
+				y="3895.496" />
+
+			<Point
+				x="5349.634"
+				y="3968.761" />
+
+			<Point
+				x="5466.433"
+				y="4000.801" />
+
+			<Point
+				x="4892.451"
+				y="4041.336" />
+
+			<Point
+				x="4829.267"
+				y="3760.571" />
+
+			<Point
+				x="4813.172"
+				y="3539.121" />
+
+			<Point
+				x="4631.580"
+				y="3350.113" />
+
+			<Point
+				x="4590.809"
+				y="3113.064" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone7"
+		Belong="1071"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="SectTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="SectTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="3349.793"
+				y="2577.392" />
+
+			<Point
+				x="3653.043"
+				y="3942.662" />
+
+			<Point
+				x="4848.943"
+				y="4402.348" />
+
+			<Point
+				x="4190.955"
+				y="2419.688" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="4365.277"
+				y="3218.502" />
+
+			<Point
+				x="4166.060"
+				y="3563.660" />
+
+			<Point
+				x="4436.283"
+				y="3511.990" />
+
+			<Point
+				x="4302.043"
+				y="3633.087" />
+
+			<Point
+				x="4114.061"
+				y="3737.083" />
+
+			<Point
+				x="3960.247"
+				y="3644.491" />
+
+			<Point
+				x="4483.667"
+				y="3979.712" />
+
+			<Point
+				x="4553.967"
+				y="3842.008" />
+
+			<Point
+				x="4555.318"
+				y="3693.482" />
+
+			<Point
+				x="4626.348"
+				y="4147.633" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone8"
+		Belong="1071"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="SectTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="SectTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="4868.535"
+				y="4432.489" />
+
+			<Point
+				x="3649.202"
+				y="3960.875" />
+
+			<Point
+				x="3008.002"
+				y="4305.561" />
+
+			<Point
+				x="2411.890"
+				y="4571.070" />
+
+			<Point
+				x="2831.132"
+				y="4867.922" />
+
+			<Point
+				x="3147.653"
+				y="4699.542" />
+
+			<Point
+				x="4321.436"
+				y="4958.875" />
+
+			<Point
+				x="5023.044"
+				y="4809.529" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="4886.087"
+				y="4661.611" />
+
+			<Point
+				x="4599.642"
+				y="4412.352" />
+
+			<Point
+				x="4417.358"
+				y="4469.834" />
+
+			<Point
+				x="4569.539"
+				y="4696.909" />
+
+			<Point
+				x="4061.677"
+				y="4755.061" />
+
+			<Point
+				x="3930.526"
+				y="4397.476" />
+
+			<Point
+				x="4108.045"
+				y="4156.704" />
+
+			<Point
+				x="3791.235"
+				y="4453.685" />
+
+			<Point
+				x="4174.316"
+				y="4472.107" />
+
+			<Point
+				x="4242.529"
+				y="4534.092" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="InfectionZone10"
+		Belong="1071"
+		Prototype="InfectionZone"
+		InfectionTeamPrototypeName="SectTeam"
+		DropOutTimeOut="30.000"
+		InfectionLair="SectTeam"
+		HadPlayerInside="0">
+		<Polygon>
+			<Point
+				x="4165.553"
+				y="5980.139" />
+
+			<Point
+				x="4315.766"
+				y="4969.895" />
+
+			<Point
+				x="3153.291"
+				y="4707.361" />
+
+			<Point
+				x="2831.198"
+				y="4879.488" />
+
+			<Point
+				x="2547.405"
+				y="5542.004" />
+		</Polygon>
+
+		<DropOut>
+			<Point
+				x="3072.182"
+				y="5465.898" />
+
+			<Point
+				x="2869.573"
+				y="5261.552" />
+
+			<Point
+				x="3010.046"
+				y="5199.456" />
+
+			<Point
+				x="3282.033"
+				y="4980.337" />
+
+			<Point
+				x="3404.266"
+				y="4997.805" />
+
+			<Point
+				x="3417.307"
+				y="5186.601" />
+
+			<Point
+				x="3312.297"
+				y="5245.814" />
+
+			<Point
+				x="3477.188"
+				y="5320.837" />
+
+			<Point
+				x="3501.943"
+				y="5504.759" />
+
+			<Point
+				x="3880.478"
+				y="5195.839" />
+
+			<Point
+				x="3773.277"
+				y="5222.468" />
+
+			<Point
+				x="4021.233"
+				y="4955.025" />
+
+			<Point
+				x="4030.436"
+				y="4833.453" />
+
+			<Point
+				x="3956.282"
+				y="5039.916" />
+
+			<Point
+				x="3990.643"
+				y="5615.089" />
+
+			<Point
+				x="3682.526"
+				y="5761.455" />
+
+			<Point
+				x="3742.153"
+				y="5830.225" />
+
+			<Point
+				x="3555.702"
+				y="5681.781" />
+		</DropOut>
+	</Object>
+
+	<Object
+		Name="PetrolStationTown"
+		Belong="1080"
+		Prototype="PetrolStationTown"
+		Pos="4534.886 319.348 5260.037"
+		Rot="0.000 -0.716 0.000 0.698"
+		PointOfViewInInterface="5.000 20.000 5.000"
+		CaravansDest="">
+		<Object
+			Name="PetrolStationTown_enter"
+			Belong="1080"
+			Prototype="genericLocation"
+			Pos="4542.172 318.619 5277.491"
+			Rot="0.000 -0.716 0.000 0.698"
+			Radius="10.000" />
+
+		<Object
+			Name="PetrolStationTown_Workshop"
+			Belong="1080"
+			Prototype="workshop">
+			<CabinsAndBaskets />
+
+			<Vehicles />
+		</Object>
+
+		<Parts>
+			<AttackTeam
+				present="no" />
+		</Parts>
+
+		<EntryPath />
+
+		<ExitPath />
+	</Object>
+
+	<Object
+		Name="UpgradeFuelLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4675.157 320.000 5299.909"
+		Radius="2.000" />
+
+	<Object
+		Name="UpgradeHealLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4705.659 319.535 5372.652"
+		Radius="2.000" />
+
+	<Object
+		Name="arena_barricade13546"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5238.227 304.409 4541.403" />
+
+	<Object
+		Name="arena_barricade13547"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5235.473 304.533 4545.750" />
+
+	<Object
+		Name="arena_barricade13548"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5239.435 304.279 4535.686" />
+
+	<Object
+		Name="arena_barricade13549"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5230.855 304.641 4548.437" />
+
+	<Object
+		Name="arena_barricade13550"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5227.886 304.762 4553.155" />
+
+	<Object
+		Name="arena_barricade13551"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5164.879 304.834 4522.188" />
+
+	<Object
+		Name="arena_barricade13552"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5173.424 304.968 4546.380" />
+
+	<Object
+		Name="arena_barricade13553"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5187.063 305.107 4562.010" />
+
+	<Object
+		Name="arena_barricade13554"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5203.328 305.152 4568.055" />
+
+	<Object
+		Name="arena_barricade13555"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5221.645 305.206 4573.398" />
+
+	<Object
+		Name="arena_barricade13556"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5165.937 305.464 4589.875" />
+
+	<Object
+		Name="arena_barricade13557"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5148.332 305.289 4579.584" />
+
+	<Object
+		Name="arena_barricade13558"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5167.180 305.958 4623.300" />
+
+	<Object
+		Name="arena_barricade13559"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5154.326 306.895 4680.078" />
+
+	<Object
+		Name="arena_barricade13560"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5158.583 306.687 4667.379" />
+
+	<Object
+		Name="arena_barricade13561"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5165.366 306.309 4644.561" />
+
+	<Object
+		Name="arena_barricade13562"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5182.325 307.450 4691.063" />
+
+	<Object
+		Name="arena_barricade13563"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5191.654 306.860 4665.495" />
+
+	<Object
+		Name="arena_barricade13564"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5189.536 307.103 4675.758" />
+
+	<Object
+		Name="arena_barricade13565"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5194.159 306.517 4649.454" />
+
+	<Object
+		Name="arena_barricade13566"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5208.270 306.229 4633.084" />
+
+	<Object
+		Name="arena_barricade13567"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5228.532 306.161 4628.563" />
+
+	<Object
+		Name="arena_barricade13568"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5122.770 305.410 4599.887" />
+
+	<Object
+		Name="arena_barricade13569"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5101.738 305.004 4578.017" />
+
+	<Object
+		Name="arena_barricade13570"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5083.231 304.719 4569.807" />
+
+	<Object
+		Name="arena_barricade13571"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5063.038 304.425 4569.936" />
+
+	<Object
+		Name="arena_barricade13572"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5117.121 304.835 4511.536" />
+
+	<Object
+		Name="arena_barricade13573"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5107.018 304.802 4507.344" />
+
+	<Object
+		Name="arena_barricade13574"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5096.912 304.792 4498.492" />
+
+	<Object
+		Name="arena_barricade13575"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5070.826 304.522 4495.535" />
+
+	<Object
+		Name="arena_barricade13576"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5057.185 304.165 4502.403" />
+
+	<Object
+		Name="arena_barricade13577"
+		Belong="1001"
+		Prototype="arena_barricade13"
+		Pos="5039.638 303.539 4511.659" />
+
+	<Object
+		Name="ArenaLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5139.087 304.878 4522.237"
+		Radius="5.000" />
+
+	<Object
+		Name="UpgradeSellLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4672.451 319.240 5384.505"
+		Radius="2.000" />
+
+	<Object
+		Name="DruidLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4511.598 312.732 3515.374"
+		Radius="15.000">
+		<Object
+			Name="Druid0"
+			Belong="1100"
+			Prototype="NPC"
+			ModelName="point"
+			helloReplyNames="Druid_Dialog0_1_1"
+			SpokenCount="0" />
+
+		<Object
+			Name="Druid"
+			Belong="1100"
+			Prototype="NPC"
+			ModelName="r3_man"
+			cfg="2952"
+			helloReplyNames="Druid_Dialog1_1_1 Druid_Dialog2_1_1"
+			SpokenCount="0" />
+	</Object>
+
+	<Object
+		Name="WarehouseLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5389.184 315.945 5464.984"
+		Radius="5.000" />
+
+	<Object
+		Name="DesertTownQLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4155.871 314.835 3894.496"
+		Radius="200.000" />
+
+	<Object
+		Name="DesertTown"
+		Belong="1072"
+		Prototype="DesertTown"
+		Pos="4155.871 315.195 3894.496"
+		Rot="0.000 -0.716 0.000 0.698"
+		MaxDefenders="0"
+		PointOfViewInInterface="90.000 50.000 30.000"
+		CaravansDest="">
+		<Object
+			Name="DesertTown_Hall"
+			Belong="1072"
+			Prototype="barWithoutBarman">
+			<Object
+				Name="DesertTown_Guy1"
+				Belong="1072"
+				Prototype="NPC"
+				ModelName="r4_man"
+				skin="1"
+				cfg="333"
+				helloReplyNames="DesertTown_Guy1_Dialog_1_1"
+				SpokenCount="0" />
+
+			<Object
+				Name="DesertTown_Guy2"
+				Belong="1072"
+				Prototype="NPC"
+				ModelName="r4_man"
+				cfg="21"
+				helloReplyNames="DesertTown_Guy2_Dialog_1_1 DesertTown_Guy2_Dialog2_0_1"
+				SpokenCount="0" />
+
+			<Object
+				Name="DesertTown_Guy4"
+				Belong="1072"
+				Prototype="NPC"
+				ModelName="r1_man"
+				skin="1"
+				cfg="182"
+				helloReplyNames="DesertTown_Guy4_Dialog_0_1 DesertTown_Guy4_Dialog2_1_1"
+				SpokenCount="0" />
+		</Object>
+
+		<Object
+			Name="DesertTown_enter"
+			Belong="1072"
+			Prototype="genericLocation"
+			Pos="4155.871 314.835 3894.496"
+			Radius="30.000" />
+
+		<Parts>
+			<AttackTeam
+				present="no" />
+		</Parts>
+
+		<EntryPath />
+
+		<ExitPath />
+	</Object>
+
+	<Object
+		Name="Artefact1Loc1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5640.616 310.753 5555.933"
+		Radius="5.000" />
+
+	<Object
+		Name="Artefact1Loc2"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5707.521 309.910 5594.265"
+		Radius="3.000" />
+
+	<Object
+		Name="Artefact1Loc3"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5625.359 310.966 5554.194"
+		Radius="3.000" />
+
+	<Object
+		Name="Artefact1Loc4"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5637.869 311.399 5497.728"
+		Radius="3.000" />
+
+	<Object
+		Name="Artefact1LocLookout"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5640.616 310.753 5555.933"
+		Radius="130.000" />
+
+	<Object
+		Name="DesertHouseLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4672.502 299.841 2624.273"
+		Radius="12.500">
+		<Object
+			Name="DesertTown_Guy3"
+			Belong="1100"
+			Prototype="NPC"
+			ModelName="r4_man"
+			skin="1"
+			cfg="135"
+			helloReplyNames="DesertTown_Guy3_Dialog_0_1 DesertTown_Guy3_Dialog_01_1 DesertTown_Guy3_Dialog_1_1"
+			SpokenCount="0" />
+	</Object>
+
+	<Object
+		Name="BigArenaLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5125.119 305.283 4588.290"
+		Radius="200.000" />
+
+	<Object
+		Name="BigHomeLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4617.142 319.881 5326.965"
+		Radius="100.000" />
+
+	<Object
+		Name="Artefact2Loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2572.000 302.230 5989.250"
+		Radius="350.000" />
+
+	<Object
+		Name="Artefact2Loc1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2554.360 303.062 5981.958"
+		Radius="9.500" />
+
+	<Object
+		Name="Artefact2Loc2"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2566.224 302.797 6007.475"
+		Radius="9.500" />
+
+	<Object
+		Name="Artefact2Loc3"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2591.440 302.636 5997.479"
+		Radius="9.500" />
+
+	<Object
+		Name="Artefact2Loc4"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2577.160 302.355 5970.599"
+		Radius="9.500" />
+
+	<Object
+		Name="Artefact4Loc1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4617.864 310.547 6002.764"
+		Radius="10.000" />
+
+	<Object
+		Name="Artefact4Loc2"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4672.009 309.979 5988.059"
+		Radius="10.000" />
+
+	<Object
+		Name="Artefact4Loc3"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4664.270 310.263 5966.149"
+		Radius="10.000" />
+
+	<Object
+		Name="Artefact4Loc4"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4637.158 310.578 5955.646"
+		Radius="10.000" />
+
+	<Object
+		Name="Artefact4Loc5"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4615.649 310.790 5973.853"
+		Radius="10.000" />
+
+	<Object
+		Name="Artefact4Loc6"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4670.148 309.697 6012.225"
+		Radius="10.000" />
+
+	<Object
+		Name="Artefact4Loc7"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4599.650 310.708 6024.016"
+		Radius="10.000" />
+
+	<Object
+		Name="Artefact4Loc8"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4593.111 311.133 5992.152"
+		Radius="10.000" />
+
+	<Object
+		Name="Artefact4Loc9"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="4645.524 309.700 6029.622"
+		Radius="10.000" />
+		
+	<Object
+		Name="Artefact5Loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2958.484 314.415 4616.947"
+		Radius="10.000" />
+
+	<Object
+		Name="EndLoc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="5400.000 313.900 5583.000"
+		Radius="30.000" />
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
+</DynamicScene>

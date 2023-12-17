@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<World
+	name="Object612"
+	class="SgNode"
+	LastId="355758486">
+	<Node
+		name="Object355758484"
+		class="SgAnimatedModelNode"
+		org="256.000 16.000 256.000"
+		orgRel="1"
+		id="blackroom"
+		ndmAction="0" />
+
+	<Node
+		name="Object355758485"
+		class="SgAnimatedModelNode"
+		org="256.000 20.000 256.000"
+		orgRel="1"
+		rot="0.0000 0.1197 0.0000 0.9928"
+		id="menuscene"
+		ndmAction="0" />
+</World>

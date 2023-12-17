@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+	<trigger Name="Trigger_start" active="1">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+			PlayCustomMusic("mainmenu")
+			Fly("cam01", CINEMATIC_NO_AIM, 0, 900, 1, 0, false, false )
+			StartCinematic()
+			UpdateCinematic(1)
+		</script>
+	</trigger>
+
+	<trigger Name="CinematicEnd" active="1">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>			
+			TActivate("CinematicNext")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CinematicNext" active="0">
+		<event	timeout="0"	eventid="GE_TIME_PERIOD" />
+		<script>
+			Fly("cam01", CINEMATIC_NO_AIM, 0, 900, 0, 0, false, false )
+			--StartCinematic()
+			TActivate("CinematicEnd")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+</triggers>

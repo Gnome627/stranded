@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+
+	<trigger Name="GameStart_Scene0" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			Fly("start_cam01", CINEMATIC_NO_AIM, 0, 8, 1, 0 )
+			Fly("start_cam02", CINEMATIC_NO_AIM, 0, 8, 0, 0 )
+			Fly("start_cam03", CINEMATIC_NO_AIM, 0, 8, 0, 1 )
+
+            StartCinematic()
+			UpdateCinematic(1)
+
+			TActivate("GameStart_cam03")
+			TActivate("GameStart_SceneEnd")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="GameStart_cam03" active="0">
+		<event flypath="start_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(4575.224, 319.372, 5336.792))
+			GetPlayerVehicle():SetRotation(Quaternion(-0.016, 0.716, 0.006, 0.698))
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetPlayerVehicle():GetPosition()), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="GameStart_SceneEnd" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			SetCameraBehindPlayerVehicle()
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(4575.224, 319.372, 5336.792))
+			GetPlayerVehicle():SetRotation(Quaternion(-0.016, 0.716, 0.006, 0.698))
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Artefact1Cin" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			Fly("artefact1_cam01", CINEMATIC_NO_AIM, 0, 8, 1, 0 )
+			Fly("artefact1_cam", CINEMATIC_NO_AIM, 0, 9, 0, 1 )
+
+            StartCinematic()
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			TActivate("Artefact1_cam")
+			TActivate("Artefact1_SceneEnd")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	
+	<trigger Name="Artefact1_cam" active="0">
+		<event flypath="artefact1_cam" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			TActivate("tr_Artefact1Shuffle")
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(5616.986, 311.401, 5574.401))
+			GetPlayerVehicle():SetRotation(Quaternion(0.006, 0.796, 0.002, 0.605))
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetPlayerVehicle():GetPosition()), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+
+			GetEntityByName("artefact1_dummy"):SetPropertyById(4, CVector(5630.616, 320.753, 5565.933))
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(5630.616, 320.753, 5565.933), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+			CreateNewSgNodeObject( "ET_PS_DRONE_TRAIL", "art1_dummyeffect", -1, -1, CVector(5630.590, 320.753, 5566.030), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 2 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_Artefact1Light1" active="0">
+		<event timeout="1.67" eventid="GE_TIME_PERIOD" />
+		<script>
+			if 4 > c then
+				c = c + 1
+				TActivate('tr_Artefact1Light'..positions[c])
+			end
+
+			CreateNewSgNodeObject( "ET_PS_LENS_D4", "art1_lens1", -1, -1, CVector(getPos("Artefact1Loc1")) + CVector(0, 2, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(getPos("Artefact1Loc1")) + CVector(0, 2, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	
+	<trigger Name="tr_Artefact1Light2" active="0">
+		<event timeout="1.67" eventid="GE_TIME_PERIOD" />
+		<script>
+			if 4 > c then
+				c = c + 1
+				TActivate('tr_Artefact1Light'..positions[c])
+			end
+			
+			CreateNewSgNodeObject( "ET_PS_LENS_D4", "art1_lens2", -1, -1, CVector(getPos("Artefact1Loc2")) + CVector(0, 2, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(getPos("Artefact1Loc2")) + CVector(0, 2, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_Artefact1Light3" active="0">
+		<event timeout="1.67" eventid="GE_TIME_PERIOD" />
+		<script>
+			if 4 > c then
+				c = c + 1
+				TActivate('tr_Artefact1Light'..positions[c])
+			end
+			
+			CreateNewSgNodeObject( "ET_PS_LENS_D4", "art1_lens3", -1, -1, CVector(getPos("Artefact1Loc3")) + CVector(0, 2, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(getPos("Artefact1Loc3")) + CVector(0, 2, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	
+	<trigger Name="tr_Artefact1Light4" active="0">
+		<event timeout="1.67" eventid="GE_TIME_PERIOD" />
+		<script>
+			if 4 > c then
+				c = c + 1
+				TActivate('tr_Artefact1Light'..positions[c])
+			end
+			
+			CreateNewSgNodeObject( "ET_PS_LENS_D4", "art1_lens4", -1, -1, CVector(getPos("Artefact1Loc4")) + CVector(0, 2, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(getPos("Artefact1Loc4")) + CVector(0, 2, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Artefact1_SceneEnd" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			SetCameraBehindPlayerVehicle()
+			RestoreAllToleranceStatus()
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(5616.986, 311.401, 5574.401))
+			GetPlayerVehicle():SetRotation(Quaternion(0.006, 0.796, 0.002, 0.605))
+			GetPlayerVehicle():SetCustomControlEnabled(false)
+			
+			for i = 1, 4 do
+				local lens = GetEntityByName('art1_lens'..i)
+				if lens then lens:Remove() end
+			end
+			
+			CreateNewSgNodeObject( "ET_PS_LENS_D4", "art1_nlens1", -1, -1, CVector(getPos("Artefact1Loc1")), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+			CreateNewSgNodeObject( "ET_PS_LENS_D4", "art1_nlens2", -1, -1, CVector(getPos("Artefact1Loc2")), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+			CreateNewSgNodeObject( "ET_PS_LENS_D4", "art1_nlens3", -1, -1, CVector(getPos("Artefact1Loc3")), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+			CreateNewSgNodeObject( "ET_PS_LENS_D4", "art1_nlens4", -1, -1, CVector(getPos("Artefact1Loc4")), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+
+			TActivate('tr_Artefact1Loc1ToSeed')
+			TActivate('tr_Artefact1Loc2ToSeed')
+			TActivate('tr_Artefact1Loc3ToSeed')
+			TActivate('tr_Artefact1Loc4ToSeed')
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+	
+	<trigger Name="Artefact2Cin" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			Fly("artefact2_cam01", CINEMATIC_NO_AIM, 0, 8, 1, 1 )
+
+            StartCinematic()
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			TActivate("Artefact2_CreatePoles")
+			TActivate("Artefact2_SceneEnd")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Artefact2_CreatePoles" active="0">
+		<event timeout="3" eventid="GE_TIME_PERIOD" />
+		<script>
+			local wares = {"potatoe", "lom", "koroldrov", "rabochee_oborudovanie", "back_exp", "kanistr", "books", "tobacco", "mikro"}
+			randoms = {random(getn(wares)), random(getn(wares)), random(getn(wares)), random(getn(wares))}
+
+			CreateNewDummyObject( "desert_pole", "art2_pole1", -1, -1, CVector(getPos("Artefact2Loc1")), Quaternion(0.0000, 0.4000, 0.0000, 1.0000), 1 )
+			CreateNewDummyObject( wares[randoms[1]], "art2_ware1", -1, -1, CVector(getPos("Artefact2Loc1")) + CVector(0, 14, 0), Quaternion(0.2000, 0.0000, 0.0000, 1.0000), randoms[1] )
+			CreateNewSgNodeObject( "ET_PS_LENS_D1", "art2_lens1", -1, -1, CVector(getPos("Artefact2Loc1")) + CVector(0, 13, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+
+			CreateNewDummyObject( "desert_pole", "art2_pole2", -1, -1, CVector(getPos("Artefact2Loc2")), Quaternion(0.0000, 0.5000, 0.0000, 1.0000), 1 )
+			CreateNewDummyObject( wares[randoms[2]], "art2_ware2", -1, -1, CVector(getPos("Artefact2Loc2")) + CVector(0, 14, 0), Quaternion(0.1000, 0.0000, 0.0000, 1.0000), randoms[2] )
+			CreateNewSgNodeObject( "ET_PS_LENS_D1", "art2_lens2", -1, -1, CVector(getPos("Artefact2Loc2")) + CVector(0, 13, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+			
+			CreateNewDummyObject( "desert_pole", "art2_pole3", -1, -1, CVector(getPos("Artefact2Loc3")), Quaternion(0.0000, 0.6000, 0.0000, 1.0000), 1 )
+			CreateNewDummyObject( wares[randoms[3]], "art2_ware3", -1, -1, CVector(getPos("Artefact2Loc3")) + CVector(0, 14, 0), Quaternion(0.3000, 0.0000, 0.0000, 1.0000), randoms[3] )
+			CreateNewSgNodeObject( "ET_PS_LENS_D1", "art2_lens3", -1, -1, CVector(getPos("Artefact2Loc3")) + CVector(0, 13, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+
+			CreateNewDummyObject( "desert_pole", "art2_pole4", -1, -1, CVector(getPos("Artefact2Loc4")), Quaternion(0.0000, 0.5000, 0.0000, 1.0000), 1 )
+			CreateNewDummyObject( wares[randoms[4]], "art2_ware4", -1, -1, CVector(getPos("Artefact2Loc4")) + CVector(0, 14, 0), Quaternion(0.2000, 0.0000, 0.0000, 1.0000), randoms[4] )
+			CreateNewSgNodeObject( "ET_PS_LENS_D1", "art2_lens4", -1, -1, CVector(getPos("Artefact2Loc4")) + CVector(0, 13, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(getPos("Artefact2Loc1")) + CVector(0, 4, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(getPos("Artefact2Loc2")) + CVector(0, 4, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(getPos("Artefact2Loc3")) + CVector(0, 4, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(getPos("Artefact2Loc4")) + CVector(0, 4, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+
+			CreateNewDummyObject( "stranded_artefact2", "art2_dummy", -1, -1, CVector(2570.814, 322.564, 5987.085), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(2570.814, 322.564, 5987.085), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+			CreateNewSgNodeObject( "ET_PS_DRONE_TRAIL", "art2_dummyeffect", -1, -1, CVector(2570.814, 322.564, 5987.085) + CVector(0, 0, 0.1), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Artefact2_SceneEnd" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			SetCameraBehindPlayerVehicle()
+			RestoreAllToleranceStatus()
+			GetPlayerVehicle():SetCustomControlEnabled(false)
+
+			TakeQuest('Stranded_Artefact2_Quest')
+			TActivate('Artefact2ContinueQuest')
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	
+	<trigger Name="Artefact3Cin" active="0">
+		<event timeout="0.01" eventid="GE_TIME_PERIOD" />
+		<script>
+			GetPlayerVehicle():SetCustomLinearVelocity(0)
+			GetPlayerVehicle():SetThrottle(0)
+			GetPlayerVehicle():SetCustomControlEnabled(true)
+
+			Fly("artefact3_cam01", CINEMATIC_NO_AIM, 0, 8, 1, 0)
+			Fly("artefact3_cam02", CINEMATIC_NO_AIM, 0, 14, 0, 1)
+
+            StartCinematic()
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			TActivate("tr_Artefact3_cam02")
+			TActivate("Artefact3_SceneEnd")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_Artefact3_fade" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			SetGameTime( 0, 0 )
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_Artefact3_cam02" active="0">
+		<event flypath="artefact3_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			lenses = 1
+			TActivate("tr_Artefact3RemoveLens")
+			trigger:Deactivate()
+		</script>
+
+	</trigger>
+		<trigger Name="tr_Artefact3RemoveLens" active="0">
+		<event timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			if GetEntityByName('ArenaStar'..lenses) then
+				println('Catch ArenaStar'..lenses)
+				CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetEntityByName('ArenaStar'..lenses):GetPosition()), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+				if lenses == 20 then
+					println('Deleting ArenaStar'..lenses)
+					CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetEntityByName('ArenaStar'..lenses):GetPosition()) + CVector(0, 10, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+					CreateNewDummyObject( "stranded_artefact3", "artefact3_dummy", -1, -1, CVector(GetEntityByName('ArenaStar'..lenses):GetPosition()) + CVector(0, 10, 0), Quaternion(0.0000, 0.4000, 0.0000, 0.8000), 1 )
+					CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetEntityByName('ArenaStar'..lenses):GetPosition()) + CVector(0, 20, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+					GetEntityByName('ArenaStar'..lenses):Remove()
+					trigger:Deactivate()
+				else
+					println('Deleting ArenaStar'..lenses)
+					GetEntityByName('ArenaStar'..lenses):Remove()
+					lenses = lenses + 1
+					TActivate('tr_Artefact3RemoveLens')
+				end
+			end
+		</script>
+	</trigger>
+
+	<!--trigger Name="tr_Artefact3RemoveLens" active="0">
+		<event timeout="0.4" eventid="GE_TIME_PERIOD" />
+		<script>
+			for lenses = 1, 20 do
+				if GetEntityByName('ArenaStar'..lenses) then
+					CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetEntityByName('ArenaStar'..lenses):GetPosition()), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+					if lenses == 20 then
+						CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetEntityByName('ArenaStar'..lenses):GetPosition()) + CVector(0, 10, 0), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+					end
+					GetEntityByName('ArenaStar'..lenses):Remove()
+					TActivate('tr_Artefact3RemoveLens')
+					trigger:Deactivate()
+				end
+			end
+		</script>
+	</trigger-->
+
+	<trigger Name="Artefact3_SceneEnd" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+			GetPlayerVehicle():SetCustomControlEnabled(false)
+			GetPlayerVehicle():SetPosition(CVector(5140.893, 308.418, 4527.830))
+			GetPlayerVehicle():SetRotation(Quaternion(0.001, -0.036, 0.000, 0.999))
+			SetCameraBehindPlayerVehicle()
+			
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetPlayerVehicle():GetPosition()), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+
+			CompleteQuest('Stranded_ArtefactQuest_2')
+            AddFadingMsgId( "fm_history_got" )
+			AddHistory( "stranded_a2" )
+			if lenses then lenses = nil end
+			if GetEntityByName('artefact3_dummy') then GetEntityByName('artefact3_dummy') end
+			AddQuestItem('quest_artefact3')
+			AddFadingMsgByStrIdFormatted( "fm_player_add_thing", "quest_artefact3")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	
+	<trigger Name="tr_Artefact4BossPyotrStart" active="0">
+		<event 	timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			GetPlayerVehicle():SetCustomControlEnabled( true )
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			GetPlayerVehicle():SetThrottle( 0 )
+
+			Fly("artefact4_cam01", CINEMATIC_NO_AIM, 0, 13, 1, 1)
+			StartCinematic()
+
+			PlayCustomMusic("Passage05")
+
+			TActivate('tr_Artefact4BossPyotrMakePyotr')
+			TActivate('Artefact4_SceneEnd')
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger Name="tr_Artefact4BossPyotrMakePyotr" active="0">
+		<event 	timeout="2.0" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateNewDummyObject( "dweller_father", "fatherDw", -1, -1, CVector(getPos('Artefact4Loc2')), Quaternion(0.0000, 0.5, 0.000, -0.7), 2)
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetEntityByName("fatherDw"):GetPosition()), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+
+			getObj("fatherDw"):SetNodeAction(AT_RESERVED1)
+			AddCinematicMessage( 1, 0.25 )
+
+			TActivate('tr_Artefact4BossPyotrMakeTank')
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger Name="tr_Artefact4BossPyotrMakeTank" active="0">
+		<event 	timeout="5.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			GetPlayerVehicle():SetPosition(CVector(getPos("Artefact4Loc1")))
+			RotationPlayerByPoints(CVector(getPos("Artefact4Loc1")), CVector(getPos("Artefact4Loc2")))
+			SetCameraBehindPlayerVehicle()
+
+			if GetEntityByName("fatherDw") then GetEntityByName("fatherDw"):Remove() end
+			TeamCreate("PyotrTeam", 1071, CVector(getPos('Artefact4Loc2')), {"Tank01"})
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetEntityByName("PyotrTeam_vehicle_0"):GetPosition()), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
+			
+			GetEntityByName("PyotrTeam_vehicle_0"):SetRotation(Quaternion(0.0000, 0.5, 0.000, -0.7))
+
+			trigger:Deactivate()    
+		</script>
+	</trigger>
+
+	<trigger Name="Artefact4_SceneEnd" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RestoreAllToleranceStatus()
+			GetPlayerVehicle():SetCustomControlEnabled(false)
+			AllowSave( false )
+
+			CreateNewDummyObject( "pyotrarena",	"hs00", -1, -1, CVector(GetPlayerVehicle():GetPosition()), Quaternion(0.0000, 0.000, 0.0000, 1.000), 1 )
+			
+			TActivate('tr_BossTeleport')
+			TActivate('tr_CheckPyotrTankDie')
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="AllArtefactsCin" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayCustomMusic('QuietDialogue01')
+			AddFadingMsgId( 'fm_history_got' )
+			AddHistory( 'stranded_6' )
+			
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			local Plf = GetPlayerVehicle()
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			Plf:SetCustomControlEnabled( true )
+			Plf:SetCustomLinearVelocity( 0 )
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomControlEnabled( false )
+
+			FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+			StartCinematic()
+			AddCinematicMessage( 10, 1 )
+
+			TActivate('EndMusic')
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	
+	<trigger Name="EndMusic" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			StopPlayingCustomMusic()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="EndCin1" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayCustomMusic('Techno01')
+
+			Fly("end_cam01", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
+			Fly("end_cam02", CINEMATIC_NO_AIM, 0, 6, 0, 1 )
+
+            StartCinematic()
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			GetPlayerVehicle():SetCustomControlEnabled( true )
+			GetPlayerVehicle():SetCustomLinearVelocity( 0 )
+			GetPlayerVehicle():SetThrottle( 0 )
+
+			TActivate("EndCin1_cam1")
+			TActivate("EndCin1_cam2")
+			TActivate("RedBubus1")
+			TActivate("RedBubus2")
+			TActivate("End_End")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="EndCin1_cam1" active="0">
+		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
+		<script>
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(5396.546, 315.438, 5579.324))
+			GetPlayerVehicle():SetRotation(Quaternion(0.004, 0.981, 0.004, -0.194))
+			SetGameTime( 0, 0 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="EndCin1_cam2" active="0">
+		<event flypath="end_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			RuleConsole("g_postEffect cinematic01")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="RedBubus1" active="0">
+		<event timeout="4" eventid="GE_TIME_PERIOD" />
+		<script>
+			if IsQuestItemPresent("quest_artefact5") then
+				CreateEffectTTLed( "ET_PS_LENS_S9", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(1000,4000))
+				CreateEffectTTLed( "ET_PS_LENS_S9", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(1000,4000))
+				CreateEffectTTLed( "ET_PS_LENS_S9", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(1000,4000))
+				CreateEffectTTLed( "ET_PS_LENS_S9", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(1000,4000))
+			else
+				CreateEffectTTLed( "ET_PS_LENS_D1", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_LENS_D1", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_LENS_D1", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_LENS_D1", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="RedBubus2" active="0">
+		<event timeout="7.25" eventid="GE_TIME_PERIOD" />
+		<script>
+			if IsQuestItemPresent("quest_artefact5") then
+				CreateEffectTTLed( "ET_PS_LENS_S9", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(1000,2000))
+				CreateEffectTTLed( "ET_PS_LENS_S9", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(1000,2000))
+				CreateEffectTTLed( "ET_PS_LENS_S9", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(1000,2000))
+				CreateEffectTTLed( "ET_PS_LENS_S9", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(1000,2000))
+				CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-7, 7), random(2, 6), random(-7, 7)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-7, 7), random(2, 6), random(-7, 7)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-7, 7), random(2, 6), random(-7, 7)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-7, 7), random(2, 6), random(-7, 7)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				AddPlayerVehicle("ChevC1001")
+				GetPlayerVehicle():SetGamePositionOnGround(CVector(3486.621, 317.381, 4882.333))
+				GetPlayerVehicle():SetRotation(Quaternion(-0.001, -0.335, -0.007, 0.942))
+				AddCinematicMessage(30, 0.1)
+			else
+				CreateEffectTTLed( "ET_PS_LENS_D1", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_LENS_D1", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_LENS_D1", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_LENS_D1", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-5, 5), random(2, 6), random(-5, 5)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-7, 7), random(2, 6), random(-7, 7)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-7, 7), random(2, 6), random(-7, 7)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-7, 7), random(2, 6), random(-7, 7)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetPlayerVehicle():GetPosition()) + CVector(random(-7, 7), random(2, 6), random(-7, 7)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), random(2000,3000))
+				AddPlayerVehicle("ChevC1001")
+				GetPlayerVehicle():SetSkin(1)
+				GetPlayerVehicle():SetGamePositionOnGround(CVector(3286.621, 313.381, 4882.333))
+				GetPlayerVehicle():SetRotation(Quaternion(-0.001, -0.335, -0.007, 0.942))
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="End_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RuleConsole("g_postEffect cinematicEnd")
+
+			if IsQuestItemPresent("quest_artefact5") then
+				TActivate('TrueEndingCin')
+			else
+				TActivate('FalseEndingCin')
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="FalseEndingCin" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayCustomMusic('Bar')
+			SetGameTime(7, 0)
+			RuleConsole('lsViewDistanceDivider 1')
+
+			CreateNewDummyObject("house2",	"hs01", -1, -1, CVector(3291.648, 313.850, 4875.251), Quaternion(-0.004, 0.498, 0.004, -0.867), 1)
+			CreateNewDummyObject("townhall","hs02", -1, -1, CVector(3275.291, 313.850, 4871.514), Quaternion(-0.006, 0.289, -0.004, 0.957), 1)
+			CreateNewDummyObject("brick_dot1","hs03", -1, -1, CVector(3284.976, 313.200, 4861.129), Quaternion(0.017, -0.285, -0.004, -0.958), 1)
+			CreateNewDummyObject("brick_wall1","hs04", -1, -1, CVector(3288.152, 313.200, 4865.620), Quaternion(0.001, -0.872, -0.005, -0.489), 1)
+			CreateNewDummyObject( "dweller_player", "playerDw", -1, -1, CVector(3283.043, 313.000, 4877.251), Quaternion(0.002, 0.034, -0.005, 0.999), 1)
+
+			Fly("end_cam03", CINEMATIC_NO_AIM, 0, 15, 0, 0 )
+			Fly("end_cam04", CINEMATIC_NO_AIM, 0, 20, 0, 1 )
+
+            StartCinematic()
+
+			AddCinematicMessage(11, 2.0)
+
+			TActivate('FalseEndingCin_cam')
+			TActivate('FalseEnding_End')
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="FalseEndingCin_cam" active="0">
+		<event flypath="end_cam04" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			PlayCustomMusic('Passage05')
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	
+	<trigger Name="FalseEnding_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RuleConsole('lsViewDistanceDivider 0.2')
+			StopPlayingCustomMusic()
+			local ending = SpawnMessageBox( "2" )
+			ShowDeathMenu()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="TrueEndingCin" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayCustomMusic('QuietDialogue04')
+			SetGameTime(14, 0)
+			RuleConsole('lsViewDistanceDivider 1')
+
+			Fly("end_cam05", CINEMATIC_NO_AIM, 0, 3, 0, 0, 0)
+			Fly("end_cam06", CINEMATIC_NO_AIM, 0, 29, 0, 0, 0, 0, 1)
+			Fly("start_game", CINEMATIC_NO_AIM, 0, 20, 0, 1)
+
+            StartCinematic()
+
+			TActivate('TrueEndingCin_Room')
+			TActivate('TrueEndingCin_Bubus')
+			TActivate('TrueEndingCin_Effects')
+			TActivate("CreditsCin")
+			TActivate('TrueEndingCin_EffectsEnd')
+			TActivate('TrueEnding_End')
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="TrueEndingCin_Effects" active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			RuleConsole("g_postEffect cinematic0"..random(1,5))
+		</script>
+	</trigger>
+
+	<!--trigger Name="TrueEndingCin_EffectsEnd" active="0">
+		<event flypath="end_cam05" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			TDeactivate("TrueEndingCin_EffectsEnd")
+			RuleConsole("g_postEffect cinematicEnd")
+			trigger:Deactivate()
+		</script>
+	</trigger-->
+
+	<trigger Name="TrueEndingCin_Room" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateNewDummyObject( "blackroom", "room", -1, -1, CVector(3283.043, 323.000, 4877.251), Quaternion(0,0,0,1), 1)
+			CreateNewDummyObject( "dweller_player", "playerDw", -1, -1, CVector(3283.043, 323.500, 4877.251), Quaternion(-0.7, 0, 0, 0.7), 1)
+			TActivate('TrueEnding_RemovePlayer')
+			trigger:Deactivate()
+		</script>
+	</trigger>
+	
+	<trigger Name="TrueEndingCin_Bubus" active="0">
+		<event timeout="2" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateEffectTTLed( "ET_PS_LENS_D1", CVector(GetEntityByName("playerDw"):GetPosition()) + CVector(random(-1, 1), random(1, 2), random(-1, 1)), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 16000)
+		</script>
+	</trigger>
+
+	<trigger Name="TrueEnding_RemovePlayer" active="0">
+		<event timeout="28" eventid="GE_TIME_PERIOD" />
+		<script>
+			TDeactivate("TrueEndingCin_Bubus")
+			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetEntityByName("playerDw"):GetPosition()), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 5000)
+			if GetEntityByName("playerDw") then GetEntityByName("playerDw"):Remove() end
+			TDeactivate("TrueEndingCin_Effects")
+			RuleConsole("g_postEffect cinematicEnd")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CreditsCin" active="0">
+		<event flypath="start_game" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage(777, 0)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="TrueEnding_End" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			RuleConsole('lsViewDistanceDivider 0.1')
+			StopPlayingCustomMusic()
+			local ending = SpawnMessageBox( "3" )
+			ShowDeathMenu()
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	
+</triggers>

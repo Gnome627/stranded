@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<!--
+‘®Ї®бв ў«Ґ­ЁҐ Ё¬Ґ­ ®ЎкҐЄв®ў б ­ §ў ­Ёп¬Ё ў Ё­ҐадҐ©бҐ.
+ЏаЁ¬Ґа:
+
+	<Object
+		Name="TheOlme"
+		FullName="Ћ‹њЊ" />
+
+	<Object
+		Name="Olme_Shop"
+		FullName="Њ Ј §Ё­" />
+
+
+-->
+<ObjectNames>
+	<Object
+		Name="PetrolStationTown"
+		FullName="Заправочная станция" />
+
+	<Object
+		Name="DesertTown"
+		FullName="Старый посёлок" />
+		
+	<Object
+		Name="DesertTown_Hall"
+		FullName="Двор" />
+
+	<Object
+		Name="DesertTown_Guy1"
+		FullName="Эрасто" />
+
+	<Object
+		Name="DesertTown_Guy2"
+		FullName="Фараджи" />
+
+	<Object
+		Name="DesertTown_Guy3"
+		FullName="Абдул" />
+
+	<Object
+		Name="DesertTown_Guy4"
+		FullName="Стивен" />
+
+	<Object
+		Name="Druid0"
+		FullName="Незнакомец" />
+
+	<Object
+		Name="Druid"
+		FullName="Друид" />
+
+</ObjectNames>

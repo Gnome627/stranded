@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<quests>
+
+	<quest
+		Name="Stranded_Quest1"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete" />
+
+	<quest
+		Name="Arena_Quest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete" />
+
+	<quest
+		Name="Stranded_Quest2"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="1"
+		ConditionToGive="all complete"
+		OnComplete='AddPlayerMoney(750)'
+		PrecedingQuests="Stranded_Quest1">
+		<quest
+			Name="Stranded_Quest2_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="Stranded_Quest2" />
+
+		<quest
+			Name="Stranded_Quest2_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="Stranded_Quest2_1" />
+	</quest>
+
+	<quest
+		Name="Stranded_Quest2SubQuest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="1"
+		ConditionToGive="all complete"
+		PrecedingQuests="Stranded_Quest1">
+		<quest
+			Name="Stranded_Quest2SubQuest_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="Stranded_Quest2SubQuest" />
+
+		<quest
+			Name="Stranded_Quest2SubQuest_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="Stranded_Quest2SubQuest_1" />
+	</quest>
+
+	<quest
+		Name="Stranded_SciencerQuest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="1"
+		OnComplete="AddPlayerMoney(2000)"
+		ConditionToGive="all complete"
+		PrecedingQuests="Stranded_Quest1">
+		<quest
+			Name="Stranded_SciencerQuest_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			OnTake='TActivate("tr_ScienceBitch")'
+			ConditionToGive="all taken"
+			PrecedingQuests="Stranded_SciencerQuest" />
+
+		<quest
+			Name="Stranded_SciencerQuest_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="Stranded_SciencerQuest_1" />
+	</quest>
+
+	<quest
+		Name="Stranded_Quest3"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="1"
+		ConditionToGive="all complete"
+		OnComplete='AddPlayerMoney(1000)'
+		PrecedingQuests="Stranded_Quest2">
+		<quest
+			Name="Stranded_Quest3_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="Stranded_Quest3" />
+
+		<quest
+			Name="Stranded_Quest3_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			OnTake='TActivate("tr_Artefact1")'
+			ConditionToGive="all complete"
+			PrecedingQuests="Stranded_Quest3_1" />
+
+		<quest
+			Name="Stranded_Quest3_3"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="Stranded_Quest3_2" />
+	</quest>
+
+	<quest
+		Name="Stranded_ArtefactQuest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="1"
+		OnComplete="TActivate('AllArtefactsCin')"
+		ConditionToGive="all complete"
+		PrecedingQuests="Stranded_Quest3">
+		<quest
+			Name="Stranded_ArtefactQuest_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			OnTake='TActivate("tr_Artefact2")'
+			ConditionToGive="all taken"
+			PrecedingQuests="Stranded_ArtefactQuest" />
+
+		<quest
+			Name="Stranded_ArtefactQuest_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="Stranded_ArtefactQuest" />
+			
+		<quest
+			Name="Stranded_ArtefactQuest_3"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="Stranded_ArtefactQuest" />
+	</quest>
+
+	<quest
+		Name="Stranded_Artefact2_Quest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="1"
+		ConditionToGive="all taken"
+		PrecedingQuests="Stranded_ArtefactQuest_1">
+		<quest
+			Name="Stranded_Artefact2_Quest_1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="Stranded_Artefact2_Quest" />
+
+		<quest
+			Name="Stranded_Artefact2_Quest_2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			OnComplete='CompleteQuest("Stranded_ArtefactQuest_1"); TActivate("tr_Artefact5Create"); TActivate("tr_Artefact5")'
+			PrecedingQuests="Stranded_Artefact2_Quest_1" />
+	</quest>
+
+	<quest
+		Name="Stranded_End_Quest"
+		Automatic="1"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		PrecedingQuests="Stranded_ArtefactQuest"
+		OnTake='TActivate("tr_EndGame")'
+		ConditionToGive="all complete" />
+</quests>

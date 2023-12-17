@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- $Id: Servers.xml,v 1.4 2004/11/25 10:51:16 den Exp $  -->
+<Servers>
+	<AnimatedModelsServer>
+
+		<Item
+			id="menuscene"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="blackroom"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="box"
+			file="data\models\AnimModels.xml" />
+
+	</AnimatedModelsServer>
+
+	<StaticModelsServer />
+
+	<LightsServer />
+
+	<SpritesServer />
+
+	<ParticlesServer />
+
+	<SoundsServer>
+		<!-- Braking -->
+
+<!--		<Item id="S_BRAKE01" />
+		<Item id="S_PNEUMO_BRAKE01" />
+		<Item id="S_GEAR_SHIFT01" />
+
+		<Item id="S_ENGINE_MOLOKO_1_HIGH" />
+		<Item id="S_ENGINE_MOLOKO_2_HIGH" />
+		<Item id="S_ENGINE_MOLOKO_3_HIGH" />
+
+		<Item id="S_ENGINE_URAL_1_HIGH" />
+		<Item id="S_ENGINE_URAL_2_HIGH" />
+		<Item id="S_ENGINE_URAL_3_HIGH" />
+		<Item id="S_ENGINE_URAL_4_HIGH" />
+		<Item id="S_ENGINE_URAL_5_HIGH" />
+
+
+		<Item id="S_ENGINE_FIGHTER_1_HIGH" />
+
+		<Item id="S_BRAKING01" />
+		<Item id="S_BRAKING02" /> -->
+
+	</SoundsServer>
+
+	<ProjectorsServer />
+
+	<DecalsServer />
+</Servers>

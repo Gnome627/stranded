@@ -39,7 +39,7 @@ screenshots:
 prerequisites: 
   - name: community_remaster
     versions:
-      - "1.14"
+      - "2.0.10"
 
 config_options:
   firstLevel: "somalia"

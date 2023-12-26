@@ -1120,7 +1120,9 @@
 						GetPlayerVehicle():AddModifier("hp", "= "..tostring(GetPlayerVehicle():GetMaxHealth() * coeff))
 					else
 						AddImportantFadingMsgId( "fm_hp_enough" )
-						GetPlayerVehicle():AddModifier("hp", "= "..tostring(GetPlayerVehicle():GetMaxHealth() * coeff))
+						if (GetPlayerVehicle():GetMaxHealth() * coeff) > GetPlayerVehicle():GetHealth() then
+							GetPlayerVehicle():AddModifier("hp", "= "..tostring(GetPlayerVehicle():GetMaxHealth() * coeff))
+						end
 					end
 					trigger:Deactivate()
 				end
@@ -1184,7 +1186,9 @@
 						GetPlayerVehicle():AddModifier("fuel", "= "..tostring(GetPlayerVehicle():GetMaxFuel() * coeff))
 					else
 						AddImportantFadingMsgId( "fm_fueling_enough" )
-						GetPlayerVehicle():AddModifier("fuel", "= "..tostring(GetPlayerVehicle():GetMaxFuel() * coeff))
+						if (GetPlayerVehicle():GetMaxFuel() * coeff) > GetPlayerVehicle():GetFuel() then
+							GetPlayerVehicle():AddModifier("fuel", "= "..tostring(GetPlayerVehicle():GetMaxFuel() * coeff))
+						end
 					end
 					trigger:Deactivate()
 				end

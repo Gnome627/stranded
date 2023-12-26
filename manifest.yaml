@@ -44,5 +44,5 @@ prerequisites:
 config_options:
   firstLevel: "somalia"
 
-patcher_version_requirement: "2.0.9"
+patcher_version_requirement: ">=2.0.9"
 no_base_content: false

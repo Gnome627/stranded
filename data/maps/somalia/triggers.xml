@@ -732,11 +732,11 @@
 			Plf:SetThrottle( 0 )
 			Plf:SetCustomLinearVelocity( 0 )
 
-			if Plf:HasAmountOfItemsInRepository("fuel", 1) and GetPlayerMoney() >= 10000 then
+			if Plf:HasAmountOfItemsInRepository("fuel", 1) and GetPlayerMoney() >= 7500 then
 				c = SpawnMessageBox("9904")
 				if c == 1 then
 					Plf:RemoveItemsFromRepository("fuel", 1)
-					AddPlayerMoney(-10000)
+					AddPlayerMoney(-7500)
 
 					local r1 = GetEntityByName ("fuel_ruins1")
 					if r1 then r1:Remove() end

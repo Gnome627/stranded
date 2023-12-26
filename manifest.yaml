@@ -39,10 +39,10 @@ screenshots:
 prerequisites: 
   - name: community_remaster
     versions:
-      - "2.0.10"
+      - ">=1.14"
 
 config_options:
   firstLevel: "somalia"
 
-patcher_version_requirement: "1.14"
+patcher_version_requirement: "2.0.9"
 no_base_content: false

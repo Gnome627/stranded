@@ -179,7 +179,7 @@
 
 	<Reply
 		name="DesertTown_Guy4_Dialog2_1_2"
-		text="Чёрт возьми, что ты творишь... [Бедняга, совсем с катушек съехал, чтобы маску снять...]"
+		text="Чёрт возьми, что ты творишь... [Бедняга, совсем съехал с катушек и снял маску...]"
 		role="PLAYER"
 		scriptResult="GetCurNpc():SetSpokenCount(2); CompleteQuest('Stranded_SciencerQuest_2'); GetPlayerVehicle():AddItemsToRepository('additional_stability', 1); EndConversation();" />
 
@@ -208,13 +208,13 @@
 		name="DesertTown_Guy3_Dialog_01_22"
 		text="Я ещё не готов."
 		role="PLAYER"
-		scriptResult="EndConversation();" />
+		scriptResult="GetPlayerVehicle():SetCustomLinearVelocity(0); EndConversation();" />
 
 	<Reply
 		name="DesertTown_Guy3_Dialog_0_2"
 		text="Я помогу тебе."
 		role="PLAYER"
-		scriptResult="GetCurNpc():SetSpokenCount(2); TActivate('tr_Guy3Quest'); EndConversation();" />
+		scriptResult="GetPlayerVehicle():SetCustomLinearVelocity(0); GetCurNpc():SetSpokenCount(2); TActivate('tr_Guy3Quest'); EndConversation();" />
 
 	<Reply
 		name="DesertTown_Guy3_Dialog_1_1"
@@ -227,7 +227,7 @@
 		name="DesertTown_Guy3_Dialog_1_2"
 		text="Бывай."
 		role="PLAYER"
-		scriptResult="RemoveQuestItem('quest_container'); GetPlayerVehicle():AddItemsToRepository('firewood', 1); GetPlayerVehicle():AddItemsToRepository('potato', 1); GetCurNpc():SetSpokenCount(3); CompleteQuest('Stranded_Quest2SubQuest_2'); EndConversation();" />
+		scriptResult="GetPlayerVehicle():SetCustomLinearVelocity(0); RemoveQuestItem('quest_container'); GetPlayerVehicle():AddItemsToRepository('firewood', 1); GetPlayerVehicle():AddItemsToRepository('potato', 1); GetCurNpc():SetSpokenCount(3); CompleteQuest('Stranded_Quest2SubQuest_2'); EndConversation();" />
 
 <!-- Gnome -->
 

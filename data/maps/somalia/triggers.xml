@@ -1111,17 +1111,19 @@
 				cost = 25
 			end
 			if GetPlayerMoney() >= cost then
-				if (GetPlayerVehicle():GetMaxHealth() * coeff - 10) > GetPlayerVehicle():GetHealth() then
+				if (GetPlayerVehicle():GetMaxHealth() * coeff - 25) > GetPlayerVehicle():GetHealth() then
 					AddPlayerMoney(-cost)
 					GetPlayerVehicle():AddModifier("hp", hp_plus)
 				else
 					if GetEntityByName("hp_building1") ~= nil then
 						AddImportantFadingMsgId( "fm_hp_end" )
 						GetPlayerVehicle():AddModifier("hp", "= "..tostring(GetPlayerVehicle():GetMaxHealth() * coeff))
+						AddPlayerMoney(-cost)
 					else
 						AddImportantFadingMsgId( "fm_hp_enough" )
 						if (GetPlayerVehicle():GetMaxHealth() * coeff) > GetPlayerVehicle():GetHealth() then
 							GetPlayerVehicle():AddModifier("hp", "= "..tostring(GetPlayerVehicle():GetMaxHealth() * coeff))
+						AddPlayerMoney(-cost)
 						end
 					end
 					trigger:Deactivate()

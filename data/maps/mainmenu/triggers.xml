@@ -3,6 +3,7 @@
 	<trigger Name="Trigger_start" active="1">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
+			RuleConsole('lsViewDistanceDivider 0.1')
 			PlayCustomMusic("mainmenu")
 			Fly("cam01", CINEMATIC_NO_AIM, 0, 900, 1, 0, false, false )
 			StartCinematic()

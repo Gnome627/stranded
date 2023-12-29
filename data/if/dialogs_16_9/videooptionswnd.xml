@@ -190,7 +190,7 @@
 		<Node
 			name="cbGraphicQuality"
 			class="ComboBoxWnd"
-			org="870.000 392.000 339.000 39.000"
+			org="870.000 2392.000 339.000 39.000"
 			style="576"
 			order="4"
 			id="10102"
@@ -217,7 +217,7 @@
 		<Node
 			name="emboss_cbGraphicQuality"
 			class="Wnd"
-			org="867.000 390.000 345.000 45.000"
+			org="867.000 2390.000 345.000 45.000"
 			style="768"
 			order="1"
 			id=""
@@ -282,7 +282,7 @@
 		<Node
 			name="lblGraphicQuality"
 			class="Wnd"
-			org="433.000 390.000 390.000 45.000"
+			org="433.000 2390.000 390.000 45.000"
 			style="2880"
 			order="7"
 			id="0"
@@ -305,7 +305,7 @@
 		<Node
 			name="cbWaterQuality"
 			class="ComboBoxWnd"
-			org="870.000 460.000 339.000 39.000"
+			org="870.000 410.000 339.000 39.000"
 			style="576"
 			order="2"
 			id="10106"
@@ -332,7 +332,7 @@
 		<Node
 			name="emboss_cbWaterQuality"
 			class="Wnd"
-			org="867.000 457.000 345.000 45.000"
+			org="867.000 407.000 345.000 45.000"
 			style="768"
 			order="1"
 			id=""
@@ -351,7 +351,7 @@
 		<Node
 			name="lblWaterQuality"
 			class="Wnd"
-			org="433.000 457.000 390.000 45.000"
+			org="433.000 407.000 390.000 45.000"
 			style="2880"
 			order="15"
 			id="10106"
@@ -374,7 +374,7 @@
 		<Node
 			name="cbGrass"
 			class="ComboBoxWnd"
-			org="870.000 510.000 339.000 39.000"
+			org="870.000 460.000 339.000 39.000"
 			style="576"
 			order="10"
 			id="10104"
@@ -401,7 +401,7 @@
 		<Node
 			name="emboss_cbGrass"
 			class="Wnd"
-			org="867.000 508.000 345.000 45.000"
+			org="867.000 458.000 345.000 45.000"
 			style="768"
 			order="1"
 			id=""
@@ -420,7 +420,7 @@
 		<Node
 			name="lblGrass"
 			class="Wnd"
-			org="433.000 508.000 390.000 45.000"
+			org="433.000 458.000 390.000 45.000"
 			style="2880"
 			order="11"
 			id="0"
@@ -443,7 +443,7 @@
 		<Node
 			name="cbShadows"
 			class="ComboBoxWnd"
-			org="870.000 561.000 339.000 39.000"
+			org="870.000 511.000 339.000 39.000"
 			style="576"
 			order="13"
 			id="10105"
@@ -470,7 +470,7 @@
 		<Node
 			name="emboss_cbShadows"
 			class="Wnd"
-			org="867.000 558.000 345.000 45.000"
+			org="867.000 508.000 345.000 45.000"
 			style="768"
 			order="1"
 			id=""
@@ -489,7 +489,7 @@
 		<Node
 			name="lblShadows"
 			class="Wnd"
-			org="433.000 558.000 390.000 45.000"
+			org="433.000 508.000 390.000 45.000"
 			style="2880"
 			order="14"
 			id="0"
@@ -512,7 +512,7 @@
 		<Node
 			name="cbFiltration"
 			class="ComboBoxWnd"
-			org="870.000 612.000 339.000 39.000"
+			org="870.000 562.000 339.000 39.000"
 			style="576"
 			order="2"
 			id="10109"
@@ -539,7 +539,7 @@
 		<Node
 			name="emboss_cbFiltration"
 			class="Wnd"
-			org="867.000 609.000 345.000 45.000"
+			org="867.000 559.000 345.000 45.000"
 			style="768"
 			order="1"
 			id=""
@@ -558,7 +558,7 @@
 		<Node
 			name="lblFiltration"
 			class="Wnd"
-			org="433.000 609.000 390.000 45.000"
+			org="433.000 559.000 390.000 45.000"
 			style="2880"
 			order="21"
 			id="0"
@@ -769,7 +769,7 @@ textColorDisabled="ff7f7f7f">
 		<Node
 			name="cbBlum"
 			class="ComboBoxWnd"
-			org="870.000 662.000 339.000 39.000"
+			org="870.000 612.000 339.000 39.000"
 			style="576"
 			order="22"
 			id="10110"
@@ -796,7 +796,7 @@ textColorDisabled="ff7f7f7f">
 		<Node
 			name="emboss_cbBlum"
 			class="Wnd"
-			org="867.000 660.000 345.000 45.000"
+			org="867.000 610.000 345.000 45.000"
 			style="768"
 			order="1"
 			id=""
@@ -815,7 +815,7 @@ textColorDisabled="ff7f7f7f">
 		<Node
 			name="lblBlum"
 			class="Wnd"
-			org="433.000 660.000 390.000 45.000"
+			org="433.000 610.000 390.000 45.000"
 			style="2880"
 			order="23"
 			id="0"
@@ -838,7 +838,7 @@ textColorDisabled="ff7f7f7f">
 		<Node
 			name="cbAntialiasing"
 			class="ComboBoxWnd"
-			org="870.000 713.000 339.000 39.000"
+			org="870.000 663.000 339.000 39.000"
 			style="576"
 			order="2"
 			id="10108"
@@ -865,7 +865,7 @@ textColorDisabled="ff7f7f7f">
 		<Node
 			name="emboss_cbAntialiasing"
 			class="Wnd"
-			org="867.000 710.000 345.000 45.000"
+			org="867.000 660.000 345.000 45.000"
 			style="768"
 			order="1"
 			id=""
@@ -884,7 +884,7 @@ textColorDisabled="ff7f7f7f">
 		<Node
 			name="lblAntialiasing"
 			class="Wnd"
-			org="433.000 710.000 390.000 45.000"
+			org="433.000 660.000 390.000 45.000"
 			style="2880"
 			order="19"
 			id="0"

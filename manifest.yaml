@@ -3,8 +3,8 @@ name: stranded
 
 # required human readable info
 display_name: stranded
-version: "1.1"
-build: "2"
+version: "1.2"
+build: "3"
 description: |
   Байка про пустынный остров с элементами выживания.
 authors: Gnome627, EM2ch
@@ -44,5 +44,6 @@ prerequisites:
 config_options:
   firstLevel: "somalia"
 
+compatible_minor_versions: true
 patcher_version_requirement: ">=2.0.6"
 no_base_content: false

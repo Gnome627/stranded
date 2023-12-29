@@ -320,6 +320,8 @@
 			GetPlayerVehicle():SetPosition(CVector(5140.893, 308.418, 4527.830))
 			GetPlayerVehicle():SetRotation(Quaternion(0.001, -0.036, 0.000, 0.999))
 			SetCameraBehindPlayerVehicle()
+
+			SetTolerance(1100, 1071, RS_ENEMY)
 			
 			CreateEffectTTLed( "ET_PS_DRONE_EX", CVector(GetPlayerVehicle():GetPosition()), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 10000)
 
@@ -327,7 +329,7 @@
             AddFadingMsgId( "fm_history_got" )
 			AddHistory( "stranded_a2" )
 			if lenses then lenses = nil end
-			if GetEntityByName('artefact3_dummy') then GetEntityByName('artefact3_dummy') end
+			if GetEntityByName('artefact3_dummy') then GetEntityByName('artefact3_dummy'):Remove() end
 			AddQuestItem('quest_artefact3')
 			AddFadingMsgByStrIdFormatted( "fm_player_add_thing", "quest_artefact3")
 

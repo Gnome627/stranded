@@ -21,7 +21,7 @@
 		SubQuestsCondition="and"
 		CheckAll="1"
 		ConditionToGive="all complete"
-		OnComplete='AddPlayerMoney(750)'
+		OnComplete="AddPlayerMoney(750)"
 		PrecedingQuests="Stranded_Quest1">
 		<quest
 			Name="Stranded_Quest2_1"
@@ -45,8 +45,7 @@
 		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="1"
-		ConditionToGive="all complete"
-		PrecedingQuests="Stranded_Quest1">
+		ConditionToGive="all complete">
 		<quest
 			Name="Stranded_Quest2SubQuest_1"
 			Automatic="1"

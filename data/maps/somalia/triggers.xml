@@ -59,7 +59,7 @@
 				CompleteQuest( "Stranded_Quest1" )
 				TakeQuest( "Stranded_Quest2" )
 
-				TDeactivate("tr_AbdulHouse")
+				--TDeactivate("tr_AbdulHouse")
 				trigger:Deactivate() 
 			end   
 		</script>
